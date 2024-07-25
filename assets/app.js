@@ -74,15 +74,94 @@ document.addEventListener('DOMContentLoaded', function() {
         initSwiper();
     });
 
-    document.querySelector('.cheaper-list').addEventListener('change', function(event) {
-        if (event.target.classList.contains('switch-input')) {
-        if (event.target.checked) {
-            console.log('Switch is ON');
+    const optionValues = document.querySelectorAll('.option-value');
+
+    optionValues.forEach(option => {
+        option.addEventListener('click', function() {
+            this.classList.toggle('active');
+        });
+    });
+
+
+    const switches = document.querySelectorAll('.switch');
+
+    switches.forEach(switchElement => {
+        switchElement.addEventListener('click', function() {
+            const input = switchElement.querySelector('.switch-input');
+            input.checked = !input.checked;
+    
+            const parentItem = switchElement.closest('.cheaper-item');
+            
+            if (input.checked) {
+                parentItem.classList.add('active');
+            } else {
+                parentItem.classList.remove('active');
+            }
+        });
+    });
+
+
+    const cheaperTogetherBtn = document.querySelector('.cheaper-together .show-all button');
+    const hiddenItems = [];
+    
+    cheaperTogetherBtn.addEventListener('click', function() {
+        const items = document.querySelectorAll('.cheaper-item');
+        
+        cheaperTogetherBtn.classList.toggle('open');
+        const isOpen = cheaperTogetherBtn.classList.contains('open');
+    
+        if (isOpen) {
+            items.forEach(function(item) {
+                if (item.classList.contains('hidden')) {
+                    hiddenItems.push(item);
+                }
+                item.classList.remove('hidden');
+            });
+            cheaperTogetherBtn.querySelector('.text').textContent = 'Приховати все';
         } else {
-            console.log('Switch is OFF');
-        }
+            hiddenItems.forEach(function(item) {
+                item.classList.add('hidden');
+            });
+            cheaperTogetherBtn.querySelector('.text').textContent = 'Показати все';
+            hiddenItems.length = 0;
         }
     });
+
+
+    const perfomanceBtn = document.querySelector('.btn-perfomanse');
+
+    const hiddenItemsPerfomance = [];
+    
+    perfomanceBtn.addEventListener('click', function() {
+        const perfomaceItems = document.querySelectorAll('.perfomace-item');
+
+
+        const perfomanceWrapper = document.querySelector('.perfomance-wrapper');
+
+        perfomanceBtn.classList.toggle('open');
+
+        const isOpen = perfomanceBtn.classList.contains('open');
+    
+        if (isOpen) {
+            perfomaceItems.forEach(function(item) {
+                if (item.classList.contains('hidden')) {
+                    hiddenItemsPerfomance.push(item);
+                }
+                item.classList.remove('hidden');
+            });
+            perfomanceWrapper.classList.add('open');
+            perfomanceBtn.querySelector('.text').textContent = 'Приховати все';
+        } else {
+            hiddenItemsPerfomance.forEach(function(item) {
+                item.classList.add('hidden');
+            });
+            perfomanceWrapper.classList.remove('open');
+            perfomanceBtn.querySelector('.text').textContent = 'Показати все';
+            hiddenItemsPerfomance.length = 0;
+        }
+    });
+    
+
 
     const reviewButtons = document.querySelectorAll('.review-nav button');
 
@@ -129,6 +208,28 @@ faqItems.forEach(function(faqItem) {
         faqItem.classList.toggle('open');
     });
 });
+
+function toggleClassOnScroll() {
+    if (window.innerWidth < 768) return;
+
+    const productDescription = document.querySelector('.product_description.desktop');
+    const productTabs = document.querySelector('.product_tabs');
+
+    if (!productDescription || !productTabs) return;
+
+    const rect = productDescription.getBoundingClientRect();
+    const isVisible = rect.top <= window.innerHeight && rect.bottom >= 0;
+
+    if (isVisible) {
+        productTabs.classList.add('close');
+    } else {
+        productTabs.classList.remove('close');
+    }
+}
+
+window.addEventListener('scroll', toggleClassOnScroll);
+window.addEventListener('load', toggleClassOnScroll);
+
 
 
 });

@@ -7,10 +7,301 @@
 
     <link rel="stylesheet" href="dist/style-min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://dev4.bigmag.ua/catalog/view/master/css/components.css?v=79">
+    <link rel="stylesheet" href="https://dev4.bigmag.ua/catalog/view/master/css/manifest.css?v=70">
+    <link rel="stylesheet" href="https://dev4.bigmag.ua/catalog/view/theme/default/stylesheet/stylesheet.css?v=70?v=25">
+    
     <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
 </head>
 <body>
+    <style>
+        html, body{
+            overflow-x: visible;
+        }
+        .product_page{
+            padding-top: 151px;
+        }
+        .product_tabs{
+                top:151px;
+        }
+
+        .images__wrapper {
+            top: 150px;
+        }
+        @media(max-width:1024px){
+            .product_page{
+                padding-top: 57px;
+            }
+            .product_tabs{
+                top:57px;
+            }
+        }
+        .nav-categories-dropdown-button__text{
+            display: flex;
+            align-items: center;
+            height:100%;
+        }
+        @media(min-width:1024px){
+            .product_tabs{
+                z-index: 4;
+            }
+        }
+        @media(max-width:1024px){
+            .product_tabs{
+                z-index: 9998;
+            }
+        }
+      
+        main{
+            padding-bottom: 30px;
+        }
+    </style>
+    <header id="header" class="header block_fixed">
+        <div class="header__container header__wrapper wrapper">
+          <div class="header__data">
+            <div class="header__box header__box--logo">
+                                    <!-- base-logo--><a class="base-logo" href="https://bigmag.ua/ua/">
+                    <img style="width: 150px;" class="base-logo__img" src="https://bigmag.ua/image/catalog/image/Logo/new2023/original _logo.svg" alt="BIG MAG"></a>
+                    <!-- base-logo-->
+                            </div>
+            <div class="header__box header__box--help-links">
+                    <ul class="header-help-actions">
+                        <li class="header-help-actions__item"><a class="header-help-actions__link" href="/ua/usloviya-remont.html"> Контакти</a></li>
+                        <li class="header-help-actions__item"><a class="header-help-actions__link" href="/ua/dostavka.html"> Доставка та оплата </a></li>
+                        <li class="header-help-actions__item"><a class="header-help-actions__link" href="https://bigmag.ua/ua/sub-magaziny-1/"> Магазини</a></li>
+                        <li class="header-help-actions__item"><a class="header-help-actions__link" href="ua/svyaz-s-rukovoditelem.html">Зв'язок з керівником</a></li>
+                        <li class="header-help-actions__item"><a class="header-help-actions__link" href="https://bigmag.ua/ua/index.php?route=product/ex_store_reviews"> Відгуки про магазин</a></li>
+                        <!-- <li class="header-help-actions__item"><a class="header-help-actions__link" href="/ua/partners.html"> Гарантія та повернення </a></li> -->
+
+
+
+                    </ul>
+            </div>
+
+            <div class="header__box header__box--phone-number">
+                    <div class="header-phone-number">
+                        <span class="header_phone_ico_block"><img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_phone_ico.svg"></span>
+                        <a class="header-phone-number__current binct-phone-number-1" href="javascript:void(0);" data-binct-original="1"><span>0</span><span style="opacity: 0.6;">6</span><span style="opacity: 0.4;">3</span><span style="margin-left: 5px;">Показати номер</span></a>
+                                          </div>
+            </div>
+              <div class="header__box header__box--user-actions">
+                  <div class="header-user-actions">
+                      <div class="header-user-actions__item">
+                          <div class="pull-left">
+	<div id="form-language">
+		<div class="btn-group">
+		<!--	 <button class="btn btn-link dropdown-toggle" data-toggle="dropdown">
+			 			 			 			 			 			 <img src="catalog/language/uk-ua/uk-ua.png" alt="UA" title="UA">
+			 			 			 			 <span class="hidden-xs hidden-sm hidden-md">Українська</span>&nbsp;<i class="fa fa-caret-down"></i></button>-->
+			 <ul class="dropdown-menu-lang">
+				 			<li>
+                    
+		<button class="btn btn-link btn-block language-select" onclick="window.location = 'https://bigmag.ua/iphone-xr-64gb-black-mry42-5-5-b-u.html'">RU</button>
+        </li>				 			<li>
+           
+          <button class="btn btn-link btn-block language-select language-select-active" onclick="window.location = 'https://bigmag.ua/ua/iphone-xr-64gb-black-mry42-5-5-b-u.html'">UA</button>
+          				 			 </li></ul>
+		</div>
+	</div>
+</div>
+
+                      </div>
+                  </div>
+              </div>
+                        </div>
+        </div>
+      </header>
     <main>
+        
+        <div id="desktop_nav" class="nav desktop-nav block_fixed">
+            <div class="nav__container nav__wrapper wrapper">
+              <div class="nav__data">
+                <div class="nav__box nav__box--categories">
+        <div class="nav-categories-dropdown js-nav-categories-dropdown">
+            <button class="nav-categories-dropdown__button nav-categories-dropdown-button js-nav-categories-dropdown-button" type="button" data-desktop-disabled="data-desktop-disabled">
+                <span class="nav-categories-dropdown-button__data">
+                    <span class="nav-categories-dropdown-button__text">
+                        <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/element-3.svg">
+                         Каталог товарів
+                    </span>
+                </span>
+            </button>
+    
+            <div id="nav_dropdown" class="nav-categories-dropdown__list">
+                                        <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-apple-bu/">
+                <li>
+                    <span>iPhone б/у</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Group 63.png">
+                </li>
+                </a>
+                            <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-apple-bu/sub-macbook-bu/">
+                <li>
+                    <span>MacBook б/у</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Group 64.png">
+                </li>
+                </a>
+                            <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-apple-bu/sub-apple-watch-bu/">
+                <li>
+                    <span>Apple Watch б/у</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Group 64-1.png">
+                </li>
+                </a>
+                            <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-apple-bu/sub-ipad-bu/">
+                <li>
+                    <span>iPad б/у</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Group 65.png">
+                </li>
+                </a>
+                            <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-iphone/">
+                <li>
+                    <span>iPhone</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Mask group.png">
+                </li>
+                </a>
+                            <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-macbook/">
+                <li>
+                    <span>MacBook</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Mask group-1.png">
+                </li>
+                </a>
+                            <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-ipad/">
+                <li>
+                    <span>iPad</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Mask group-3.png">
+                </li>
+                </a>
+                            <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-apple-watch-new/">
+                <li>
+                    <span>Apple Watch</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Mask group-2.png">
+                </li>
+                </a>
+                            <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-tehnika-i-aksessuary/">
+                <li>
+                    <span>Техніка та аксесуари</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Mask group-4.png">
+                </li>
+                </a>
+                                    </div>
+    
+        </div>
+    </div>
+    
+                <div class="nav__box nav__box--actions">
+                    <div class="nav-actions">
+                        <div class="nav-actions__item">
+                            <a class="nav-actions__link" href="https://obmen.bigmag.ua/">
+                                 Обмін
+                                <span class="nav-actions__icon-wrapper">
+                                    <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_obmen_ico.svg">
+                                  </span>
+    
+                            </a>
+                        </div>
+                        <div class="nav-actions__item">
+                            <a class="nav-actions__link" href="https://service.bigmag.ua/">
+                                 Сервіс
+                                <span class="nav-actions__icon-wrapper">
+                                      <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_service_ico.svg">
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                  <div class="nav__box nav__box--search">
+        <div class="base-search js-base-search" id="search">
+            <input class="base-search__input js-base-search-input" type="text" name="search" value="" autocomplete="off"><ul class="dropdown-menu"></ul>
+    
+            <span class="base-search__data">
+    
+                            <button class="base-search__icon-wrapper base-search__icon--search" type="button">
+                              <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_search_ico.svg">
+                            </button>
+                            
+    
+             </span>
+        </div>
+    </div>
+                <div class="nav__box nav__box--actions">
+                      <div class="nav-actions">
+                        <div class="nav-actions__item">
+                            <a class="nav-actions__link nav-actions__link_center" href="https://bigmag.ua/ua/login/">
+                                <span class="nav-actions__icon-wrapper marg_top-2">
+                                    <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_user_ico.svg" height="20">
+                                  </span>
+                            </a>
+                        </div>
+                        <div class="nav-actions__item">
+                            <a class="nav-actions__link nav-actions__link_center" href="https://bigmag.ua/ua/login/">
+                                <span class="nav-actions__icon-wrapper marg_top-2">
+                                    <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_fav_link.svg" height="20">
+                                  </span>
+                            </a>
+                        </div>
+                        <div class="nav-actions__item">
+                            <a class="nav-actions__link nav-actions__link_center" href="https://bigmag.ua/ua/cart/">
+                                                            <span class="nav-actions__icon-wrapper">
+                                    <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_cart_icon.svg" height="20" style="margin: 2px 0 0 0;">
+                                  </span>
+                            </a>
+                        </div>
+                                        </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header-mobile" style="/* position: absolute; */">
+            <div class="header-mobile__wrapper wrapper">
+              <div class="header-mobile__box header-mobile__box--menu">
+                <button class="header-mobile__button" type="button" data-modal-button="nav-mobile">
+                  <div class="header-mobile__icon header-mobile__icon--menu">
+                      <!--<use href="#menu"></use>-->
+                      <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_mobile_catalog_ico.svg" style="width: 28px;">
+                  </div>
+                </button>
+              </div>
+                <div class="header-mobile__box" id="search_buttom">
+                    <a class="header-mobile__button" id="search_buttom_a" href="#">
+                        <div class="header-mobile__icon header-mobile__icon--menu">
+                            <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_search_ico.svg" style="width: 24px;">
+                        </div>
+                    </a>
+                    <div class="header-mobile__box header-mobile__box--search" id="search_input">
+                        <div class="base-search js-base-search">
+                            <input class="base-search__input js-base-search-input base-search__input_mobile" type="text" placeholder="Поиск" onkeydown="$('.desktop-nav input[name=\'search\']').val($(this).val()); setTimeout(function(){$('.desktop-nav input[name=\'search\']').trigger('keydown') }, 500)">
+                            <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_search_ico.svg" style="width: 24px;position: absolute;top: 17px;left: 13px;">
+                            <button class="base-search__icon--search base-search__input_mobile_button" type="button">Найти</button>
+                        </div>
+    
+    
+    
+                    </div>
+                </div>
+    
+    
+                <div id="head_mob_logo_block" class="header__box header__box--logo">
+                    <a class="base-logo" href="https://dev4.bigmag.ua/">
+                        <img src="https://dev4.bigmag.ua/image/catalog/image/Logo/big_mag_original.png" alt="BIG MAG" width="93" height="40">
+                    </a>
+    
+                </div>
+    
+              <div id="head_mob_tel_block" class="header-mobile__box">
+                  <a class="header-mobile__button" href="tel:+38093 773 36 92">
+                      <div class="header-mobile__icon header-mobile__icon--phone">
+                          <!--<use href="#phone-stroke"></use>-->
+                          <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_phone_ico.svg" style="width: 24px;">
+                      </div>
+                  </a>
+                  <a class="header-mobile__button" href="https://dev4.bigmag.ua/cart/">
+                                        <div class="top-svg-cart header-mobile__icon header-mobile__icon--cart">
+                          <!--<use href="#cart"></use>-->
+                          <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_cart_icon.svg">
+                        </div>
+                    </a>
+                </div>
+              </div>
+            </div>
         <div class="product_page">
             <div class="product_tabs">
                 <div class="swiper-container tabs-slider product__container">
@@ -166,7 +457,7 @@
                             <div class="product-check">
                                 <div class="product-options">
                                         <div class="option">
-                                            <span class="option-name">Вбудована пам'ять</span>
+                                            <span class="option-name">Вбудована пам'ять:</span>
                                             <div class="option-values">
                                                 <span class="option-value">
                                                     128 GB
@@ -180,7 +471,7 @@
                                             </div>
                                         </div>
                                         <div class="option">
-                                            <span class="option-name">Колір</span>
+                                            <span class="option-name">Колір:</span>
                                             <div class="option-values">
                                                 <span class="option-value option-thumb active">
                                                     <img src="assets/images/option-blue.png" alt="">
@@ -194,7 +485,7 @@
                                             </div>
                                         </div>
                                         <div class="option">
-                                            <span class="option-name">Гарантія</span>
+                                            <span class="option-name">Гарантія:</span>
                                             <div class="option-values">
                                                 <span class="option-value active">
                                                     1 місяць
@@ -570,6 +861,46 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="cheaper-item hidden">
+                                        <div class="cheaper-image">
+                                            <img src="assets/images/cheaper-image.png" alt="">
+                                        </div>
+                                        <div class="cheaper-info">
+                                            <div class="cheaper-name">
+                                                Кабель USB Type-C Samsung USB Cable to USB-C Black...
+                                            </div>
+                                            <div class="cheaper-prices">
+                                                249 ₴
+                                                <span>310 ₴</span>
+                                            </div>
+                                        </div>
+                                        <div class="cheaper-switcher">
+                                            <div class="switch">
+                                                <input type="checkbox" class="switch-input">
+                                                <label class="switch-label"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cheaper-item hidden">
+                                        <div class="cheaper-image">
+                                            <img src="assets/images/cheaper-image.png" alt="">
+                                        </div>
+                                        <div class="cheaper-info">
+                                            <div class="cheaper-name">
+                                                Кабель USB Type-C Samsung USB Cable to USB-C Black...
+                                            </div>
+                                            <div class="cheaper-prices">
+                                                249 ₴
+                                                <span>310 ₴</span>
+                                            </div>
+                                        </div>
+                                        <div class="cheaper-switcher">
+                                            <div class="switch">
+                                                <input type="checkbox" class="switch-input">
+                                                <label class="switch-label"></label>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="show-all"> 
                                         <button>
                                             <span class="text">Показати все</span>
@@ -796,11 +1127,78 @@
                                         </div>
 
                                     </div>
+                                    <div class="perfomace-item hidden">
+                                        <div class="perfomace-item-title">
+                                            <span class="icon">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect width="24" height="24" fill="url(#pattern0_3478_8928)"/>
+                                                    <defs>
+                                                    <pattern id="pattern0_3478_8928" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                                    <use xlink:href="#image0_3478_8928" transform="scale(0.00657895)"/>
+                                                    </pattern>
+                                                    <image id="image0_3478_8928" width="152" height="152" xlink:href="data:image/png;base64,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"/>
+                                                    </defs>
+                                                </svg>
+                                            </span>
+                                            <span class="text">Безпека</span>
+                                        </div>
+                                        <div class="perfomace-item-list">
+                                            <span>Face ID</span>
+                                            <span>Не R-Sim (працює з усіма операторами)  </span>
+                                            <span>Не крадений (перевірка 
+                                                по базі МВС України)</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="perfomace-item hidden">
+                                        <div class="perfomace-item-title">
+                                            <span class="icon">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect width="24" height="24" fill="url(#pattern0_3478_8974)"/>
+                                                    <defs>
+                                                    <pattern id="pattern0_3478_8974" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                                    <use xlink:href="#image0_3478_8974" transform="translate(-0.204916 0.0401677) scale(0.0128276)"/>
+                                                    </pattern>
+                                                    <image id="image0_3478_8974" width="114" height="114" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHIAAAByCAYAAACP3YV9AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARUSURBVHgB7Z1LiBxVGIVPgg9UIiOiUXwsohDcBERFBh+ZRFQEkYAIChJXvhAUVwouFETd+EAUFBSMiiJqiEI0oIyzkIAbJbhQI4QEQiCPRd4JeTDJ+amEdN8MmQqpurfr1PngwFRN1VTf/nruvX27+WsORoNFzMPMg8xC5hKMNnuZf5kp5htmHXrOXOZD5hBzrKOJx/4WMw89ZYyZRLeknSlTzHkoxByU42vmsWTf/8waZtcMx1/APMNchjyEnI+YHTP87nLmDubmZP9K5pET5/aCcQy/mrczz9Y4bwXy/YetneWxxLCwnNmWnLcUPSK6ocHG31/zvNeRT+QvqMdDyXmT6AkXMUdw9k9YcA2zGe1LjB7iXtRn1cC5B1BgrCwxON+YXPdz1GcLczuqsfI6tMNu5jvM3rUOsppZduLneKHewKyHOHdCb0xZguE23Y3MzEV+0msqzPCmk+3sz2sJkaYFSoiMpa03oMubqMbyrJQQGROB56DLk8yVyEwJkbFCMwZdrmDOR2Y8RopgkSKUEPk0TOOUEHk1TOO4axWhhMg/YRqnhMjVMI3jrlUEixShhMj5MI1TQmSd7+aYs8RdqwgW2Q4TyIxFtsNiZMYiRbBIESxSBK+1iuC1VhHctYpQQuR9MI1TQuQ4TOO4axXBIkWwSBEssh3+RmYssh1WITMlRG6DaZwSIj+FaZwSIo/CNI7HSBEsUgSLFMEiRbBIEfomslgZzrbpk8jnmV+ZCyFIX0RGXdj3mQ2oKh7L0ReRUUb0R+Y1iKIqMqobf8B8xTzAvMv8xbyNqou9GOacmcBwJcUlaJYXmH3JNY4k2/8xl6I5Fid/fwKZUZvF3cq8h9Nrtaft/IzZAyHUutYXMXvB/RD4McRQE1mnu9yJqkqyFGoid9Y45npmAcRQE/lHjWOi613BXAsh1ET+jHrd5l3MSxBCTeQm5vsax+1nPoEQigsCr2Lm2yANErdKyv6VxTZR/DQg6onH3XHiLnhR0+d3ZiOqZbqrmG+ZlyGG6sc6Mem5DVXZ7ZOL5K+g+uTDi+YdI5bKUmmSEgN/Q0AEixTBIkWwSBEsUgSLFMEiRbBIESxSBIsUwSJFsEgRLFIEixTBIkWwSBEsUgSLFMEiRbBIESxSBIsUwSJFsEgRLFIEixTBIkWwSBEsUgSLFMEiRbBIESxSBIsUwSJFKCHyAPMPdNmEqo5PVkqIjFqqa6FL1E3fgh4wgXYL75ageOFdj5EilBA5nWzPVii3C6RtmEZmSojcnmwvQPeZn2zvQg+IsmkHcWo8+QHdZw1OtecwenQXg0kMTw6Wobvcg6orPdmWKfSImKkOiozu9gl0b/L1FLMVw20ZRwFKTTTiul8wjyf716G67dFejDZRdfIWZmGy/0tmOXpGjJW/YfjV3OVEW8bQU+Yx76Aqv9klaYOJxx43UCv6NmpU3sMtYh5lljI3oRI8yu8vY5lxPfMTsxIjUFb7ONiQyC4ohaayAAAAAElFTkSuQmCC"/>
+                                                    </defs>
+                                                    </svg>
+                                                    
+                                            </span>
+                                            <span class="text">Зовнішній стан</span>
+                                        </div>
+                                        <div class="perfomace-item-list">
+                                            <span>Не погнутий корпус</span>
+                                            <span>Утримувач SIM - картки не пошкоджено</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="perfomace-item hidden">
+                                        <div class="perfomace-item-title">
+                                            <span class="icon">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect width="24" height="24" fill="url(#pattern0_3478_8989)"/>
+                                                    <defs>
+                                                    <pattern id="pattern0_3478_8989" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                                    <use xlink:href="#image0_3478_8989" transform="translate(0.196429 0.154185) scale(0.00505952)"/>
+                                                    </pattern>
+                                                    <image id="image0_3478_8989" width="120" height="168" xlink:href="data:image/png;base64,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"/>
+                                                    </defs>
+                                                </svg>
+                                            </span>
+                                            <span class="text">Аудіо</span>
+                                        </div>
+                                        <div class="perfomace-item-list">
+                                            <span>Мікрофон</span>
+                                            <span>Динаміки</span>
+                                            <span>Без сторонніх шумів</span>
+                                        </div>
+
+                                    </div>
                                 </div>
                                 
 
                             <div class="show-all"> 
-                                <button>
+                                <button class="btn-perfomanse">
                                     <span class="text">Показати все</span>
                                     <span class="icon">
                                         <svg width="9" height="6" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -867,7 +1265,7 @@
                                     <span class="text">
                                         Відгуки:
                                     </span>
-                                    <button>Написати відгук</button>
+                                    <button class="addReview">Написати відгук</button>
                                 </div>
                                 <div class="reviews-list">
                                     <div class="review-item">
@@ -1293,7 +1691,48 @@
                 </div>
             </div>
         </div>
+        <div class="about-feature-block">
+            <div class="row wrapper wrapper_no_padding wrapper_850">
+                <div class="">
+                    <div class="about-feature-title">Про BigMag:</div>
+                    <div class="about-feature-wrap">
+                        <div class="af-block af-block_gray_bg">
+                            <div class="af-image"><img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/main_about1.svg" width="70" height="70" alt="<strong>10 лет</strong> на рынке Украины"></div>
+                            <div class="af-title"><strong>10 лет</strong> на рынке Украины</div>
+                        </div>
+                        <div class="af-block af-block_gray_bg">
+                            <div class="af-image"><img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/main_about2.svg" width="70" height="70" alt="Больше <strong>100.000 клиентов</strong>"></div>
+                            <div class="af-title">Больше <strong>100.000 клиентов</strong></div>
+                        </div>
+                        <!--
+                        <div class="af-block">
+                            <div class="af-image"><a class="" target="_blank" rel="nofollow noopener" href="https://bigmag.ua/ua/sub-magaziny-1/"><img src="image/about/about3.svg" width="70" height="70" alt=""></a></div>
+                            <div class="af-title"><a class="" target="_blank" rel="nofollow noopener" href="https://bigmag.ua/ua/sub-magaziny-1/">
+    <strong>4 магазина</strong></a> в Украине</div>
+                        </div>
+                        -->
+                        <div class="af-block af-block_gray_bg">
+                            <div class="af-image"><a class="" target="_blank" rel="nofollow noopener" href="https://maps.app.goo.gl/LpweevCmDZm5rBd5A"><img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/main_about4.svg" width="70" height="70" alt=""></a></div>
+                            <div class="af-title"><a class="" target="_blank" rel="nofollow noopener" href="https://maps.app.goo.gl/LpweevCmDZm5rBd5A">
+    <strong>1000+ отзывов</strong></a> на Google, средняя <strong>оценка 4,6*</strong></div>
+                        </div>
+                        <!--
+                        <div class="af-block">
+                            <div class="af-image"><img src="image/about/about5.svg" width="70" height="70" alt="Работаем <strong>7 дней</strong> в неделю и <strong>12 часов</strong> каждый день"></div>
+                            <div class="af-title">Работаем <strong>7 дней</strong> в неделю и <strong>12 часов</strong> каждый день</div>
+                        </div>
+                        -->
+                        <div class="af-block af-block_gray_bg">
+                            <div class="af-image"><img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/main_about6.svg" width="70" height="70" alt=""></div>
+                            <div class="af-title">Аудитория в <a class="" target="_blank" rel="nofollow noopener" href="https://www.instagram.com/bigmag_ua/">
+    <strong>Instagram 117.000</strong></a> и <a class="" target="_blank" rel="nofollow noopener" href="https://www.tiktok.com/@bigmag_ua"><strong>TikTok 112.000</strong></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
+   
 </body>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="dist/app-min.js"></script>
