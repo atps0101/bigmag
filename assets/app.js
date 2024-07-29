@@ -201,16 +201,37 @@ document.querySelectorAll('.review-item').forEach(function(item) {
     }
 });
 
-const faqItems = document.querySelectorAll('.faq-item');
+const questionItems = document.querySelectorAll('.question');
 
-faqItems.forEach(function(faqItem) {
-    faqItem.addEventListener('click', function() {
-        faqItem.classList.toggle('open');
+questionItems.forEach(function(questionItem) {
+    questionItem.addEventListener('click', function() {
+        questionItem.closest('.faq-item').classList.toggle('open');
     });
 });
 
+document.querySelector('.wishlist').addEventListener('click', function() {
+    this.classList.toggle('active');
+});
+
+
+
+document.querySelectorAll('.like').forEach(function(like) {
+    like.addEventListener('click', function() {
+        this.classList.toggle('active');
+    });
+})
+
+document.querySelectorAll('.dislike').forEach(function(dislike) {
+    dislike.addEventListener('click', function() {
+        this.classList.toggle('active');
+    });
+})
+
+
+
+
 function toggleClassOnScroll() {
-    if (window.innerWidth < 768) return;
+    if (window.innerWidth < 1250) return;
 
     const productDescription = document.querySelector('.product_description.desktop');
     const productTabs = document.querySelector('.product_tabs');
