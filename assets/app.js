@@ -1,18 +1,18 @@
 document.addEventListener('DOMContentLoaded', function() {
     const galleryThumbs = new Swiper('.gallery-thumbs', {
         spaceBetween: 15,
-        slidesPerView: 5,
-        freeMode: true,
+        slidesPerView: 'auto',
+        freeMode: false,
         watchSlidesVisibility: true,
         watchSlidesProgress: true,
         slideToClickedSlide: true,
         breakpoints: {
             1024: {
-                slidesPerView: 6,
                 spaceBetween: 25,
             }
         }
     });
+    
 
     const galleryTop = new Swiper('.gallery-top', {
         slidesPerView: 1,
@@ -30,9 +30,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     const sliderProfit = new Swiper('.slider-profit', {
-        slidesPerView: 1.2,
+        slidesPerView: 1.2, 
         spaceBetween: 10,
-        loop:false,
+        freeMode: false,
+        loop: false,
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
@@ -42,11 +43,12 @@ document.addEventListener('DOMContentLoaded', function() {
             clickable: true,
         },
         breakpoints: {
-            1024: {
-                slidesPerView: 1,
+            768: {
+                slidesPerView: 1, 
             }
         }
     });
+    
 
     let swiperInstance; 
 
@@ -54,9 +56,13 @@ document.addEventListener('DOMContentLoaded', function() {
         if (window.matchMedia('(max-width: 560px)').matches) {
             if (!swiperInstance) {
                 swiperInstance = new Swiper('.tabs-slider', {
-                    slidesPerView: 2.9,
+                    slidesPerView: 2.5,
                     spaceBetween: 15,
-                    loop: false
+                    loop: false,
+                    freeMode:false,
+                    watchSlidesVisibility: true,
+                    watchSlidesProgress: true,
+                    slideToClickedSlide: true,
                 });
             }
         } else {
@@ -226,6 +232,16 @@ document.querySelectorAll('.dislike').forEach(function(dislike) {
         this.classList.toggle('active');
     });
 })
+
+document.querySelectorAll('.tab').forEach(function(tab) {
+    tab.addEventListener('click', function() {
+        document.querySelectorAll('.tab').forEach(function(t) {
+            t.classList.remove('active');
+        });
+        this.classList.add('active');
+    });
+});
+
 
 
 
