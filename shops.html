@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Магазини</title>
+    <link rel="stylesheet" href="dist/style-min.css?v=1.1"> 
+    <!-- <link rel="stylesheet" href="assets/style.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://dev4.bigmag.ua/catalog/view/master/css/components.css?v=79">
+    <link rel="stylesheet" href="https://dev4.bigmag.ua/catalog/view/master/css/manifest.css?v=70">
+    <link rel="stylesheet" href="https://dev4.bigmag.ua/catalog/view/theme/default/stylesheet/stylesheet.css?v=70?v=25">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+</head>
+<body>
+    <style>
+        a {
+            color: #363636; 
+            text-decoration: none; 
+            background: none; 
+            outline: none; 
+        }
+        html, body{
+            overflow-x: visible;
+        }
+        .wrapp{
+            padding-top: 151px;
+        }
+        @media(max-width:1240px){
+            .wrapp {
+                padding-top: 57px;
+            }
+        }
+    </style>
+    <header id="header" class="header block_fixed">
+        <div class="header__container header__wrapper wrapper">
+          <div class="header__data">
+            <div class="header__box header__box--logo">
+                                    <!-- base-logo--><a class="base-logo" href="https://bigmag.ua/ua/">
+                    <img style="width: 150px;" class="base-logo__img" src="https://bigmag.ua/image/catalog/image/Logo/new2023/original _logo.svg" alt="BIG MAG"></a>
+                    <!-- base-logo-->
+                            </div>
+            <div class="header__box header__box--help-links">
+                    <ul class="header-help-actions">
+                        <li class="header-help-actions__item"><a class="header-help-actions__link" href="/ua/usloviya-remont.html"> Контакти</a></li>
+                        <li class="header-help-actions__item"><a class="header-help-actions__link" href="/ua/dostavka.html"> Доставка та оплата </a></li>
+                        <li class="header-help-actions__item"><a class="header-help-actions__link" href="https://bigmag.ua/ua/sub-magaziny-1/"> Магазини</a></li>
+                        <li class="header-help-actions__item"><a class="header-help-actions__link" href="ua/svyaz-s-rukovoditelem.html">Зв'язок з керівником</a></li>
+                        <li class="header-help-actions__item"><a class="header-help-actions__link" href="https://bigmag.ua/ua/index.php?route=product/ex_store_reviews"> Відгуки про магазин</a></li>
+                        <!-- <li class="header-help-actions__item"><a class="header-help-actions__link" href="/ua/partners.html"> Гарантія та повернення </a></li> -->
+
+
+
+                    </ul>
+            </div>
+
+            <div class="header__box header__box--phone-number">
+                    <div class="header-phone-number">
+                        <span class="header_phone_ico_block"><img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_phone_ico.svg"></span>
+                        <a class="header-phone-number__current binct-phone-number-1" href="javascript:void(0);" data-binct-original="1"><span>0</span><span style="opacity: 0.6;">6</span><span style="opacity: 0.4;">3</span><span style="margin-left: 5px;">Показати номер</span></a>
+                                          </div>
+            </div>
+              <div class="header__box header__box--user-actions">
+                  <div class="header-user-actions">
+                      <div class="header-user-actions__item">
+                          <div class="pull-left">
+	<div id="form-language">
+		<div class="btn-group">
+		<!--	 <button class="btn btn-link dropdown-toggle" data-toggle="dropdown">
+			 			 			 			 			 			 <img src="catalog/language/uk-ua/uk-ua.png" alt="UA" title="UA">
+			 			 			 			 <span class="hidden-xs hidden-sm hidden-md">Українська</span>&nbsp;<i class="fa fa-caret-down"></i></button>-->
+			 <ul class="dropdown-menu-lang">
+				 			<li>
+                    
+		<button class="btn btn-link btn-block language-select" onclick="window.location = 'https://bigmag.ua/iphone-xr-64gb-black-mry42-5-5-b-u.html'">RU</button>
+        </li>				 			<li>
+           
+          <button class="btn btn-link btn-block language-select language-select-active" onclick="window.location = 'https://bigmag.ua/ua/iphone-xr-64gb-black-mry42-5-5-b-u.html'">UA</button>
+          				 			 </li></ul>
+		</div>
+	</div>
+</div>
+
+                      </div>
+                  </div>
+              </div>
+                        </div>
+        </div>
+      </header>
+    <main>
+        
+        <div id="desktop_nav" class="nav desktop-nav block_fixed">
+            <div class="nav__container nav__wrapper wrapper">
+              <div class="nav__data">
+                <div class="nav__box nav__box--categories">
+        <div class="nav-categories-dropdown js-nav-categories-dropdown">
+            <button class="nav-categories-dropdown__button nav-categories-dropdown-button js-nav-categories-dropdown-button" type="button" data-desktop-disabled="data-desktop-disabled">
+                <span class="nav-categories-dropdown-button__data">
+                    <span class="nav-categories-dropdown-button__text">
+                        <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/element-3.svg">
+                         Каталог товарів
+                    </span>
+                </span>
+            </button>
+    
+            <div id="nav_dropdown" class="nav-categories-dropdown__list">
+                                        <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-apple-bu/">
+                <li>
+                    <span>iPhone б/у</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Group 63.png">
+                </li>
+                </a>
+                            <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-apple-bu/sub-macbook-bu/">
+                <li>
+                    <span>MacBook б/у</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Group 64.png">
+                </li>
+                </a>
+                            <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-apple-bu/sub-apple-watch-bu/">
+                <li>
+                    <span>Apple Watch б/у</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Group 64-1.png">
+                </li>
+                </a>
+                            <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-apple-bu/sub-ipad-bu/">
+                <li>
+                    <span>iPad б/у</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Group 65.png">
+                </li>
+                </a>
+                            <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-iphone/">
+                <li>
+                    <span>iPhone</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Mask group.png">
+                </li>
+                </a>
+                            <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-macbook/">
+                <li>
+                    <span>MacBook</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Mask group-1.png">
+                </li>
+                </a>
+                            <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-ipad/">
+                <li>
+                    <span>iPad</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Mask group-3.png">
+                </li>
+                </a>
+                            <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-apple-watch-new/">
+                <li>
+                    <span>Apple Watch</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Mask group-2.png">
+                </li>
+                </a>
+                            <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-tehnika-i-aksessuary/">
+                <li>
+                    <span>Техніка та аксесуари</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Mask group-4.png">
+                </li>
+                </a>
+                                    </div>
+    
+        </div>
+    </div>
+    
+                <div class="nav__box nav__box--actions">
+                    <div class="nav-actions">
+                        <div class="nav-actions__item">
+                            <a class="nav-actions__link" href="https://obmen.bigmag.ua/">
+                                 Обмін
+                                <span class="nav-actions__icon-wrapper">
+                                    <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_obmen_ico.svg">
+                                  </span>
+    
+                            </a>
+                        </div>
+                        <div class="nav-actions__item">
+                            <a class="nav-actions__link" href="https://service.bigmag.ua/">
+                                 Сервіс
+                                <span class="nav-actions__icon-wrapper">
+                                      <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_service_ico.svg">
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                  <div class="nav__box nav__box--search">
+        <div class="base-search js-base-search" id="search">
+            <input class="base-search__input js-base-search-input" type="text" name="search" value="" autocomplete="off"><ul class="dropdown-menu"></ul>
+    
+            <span class="base-search__data">
+    
+                            <button class="base-search__icon-wrapper base-search__icon--search" type="button">
+                              <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_search_ico.svg">
+                            </button>
+                            
+    
+             </span>
+        </div>
+    </div>
+                <div class="nav__box nav__box--actions">
+                      <div class="nav-actions">
+                        <div class="nav-actions__item">
+                            <a class="nav-actions__link nav-actions__link_center" href="https://bigmag.ua/ua/login/">
+                                <span class="nav-actions__icon-wrapper marg_top-2">
+                                    <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_user_ico.svg" height="20">
+                                  </span>
+                            </a>
+                        </div>
+                        <div class="nav-actions__item">
+                            <a class="nav-actions__link nav-actions__link_center" href="https://bigmag.ua/ua/login/">
+                                <span class="nav-actions__icon-wrapper marg_top-2">
+                                    <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_fav_link.svg" height="20">
+                                  </span>
+                            </a>
+                        </div>
+                        <div class="nav-actions__item">
+                            <a class="nav-actions__link nav-actions__link_center" href="https://bigmag.ua/ua/cart/">
+                                                            <span class="nav-actions__icon-wrapper">
+                                    <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_cart_icon.svg" height="20" style="margin: 2px 0 0 0;">
+                                  </span>
+                            </a>
+                        </div>
+                                        </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header-mobile" style="/* position: absolute; */">
+            <div class="header-mobile__wrapper wrapper">
+              <div class="header-mobile__box header-mobile__box--menu">
+                <button class="header-mobile__button" type="button" data-modal-button="nav-mobile">
+                  <div class="header-mobile__icon header-mobile__icon--menu">
+                      <!--<use href="#menu"></use>-->
+                      <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_mobile_catalog_ico.svg" style="width: 28px;">
+                  </div>
+                </button>
+              </div>
+                <div class="header-mobile__box" id="search_buttom">
+                    <a class="header-mobile__button" id="search_buttom_a" href="#">
+                        <div class="header-mobile__icon header-mobile__icon--menu">
+                            <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_search_ico.svg" style="width: 24px;">
+                        </div>
+                    </a>
+                    <div class="header-mobile__box header-mobile__box--search" id="search_input">
+                        <div class="base-search js-base-search">
+                            <input class="base-search__input js-base-search-input base-search__input_mobile" type="text" placeholder="Поиск" onkeydown="$('.desktop-nav input[name=\'search\']').val($(this).val()); setTimeout(function(){$('.desktop-nav input[name=\'search\']').trigger('keydown') }, 500)">
+                            <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_search_ico.svg" style="width: 24px;position: absolute;top: 17px;left: 13px;">
+                            <button class="base-search__icon--search base-search__input_mobile_button" type="button">Найти</button>
+                        </div>
+    
+    
+    
+                    </div>
+                </div>
+    
+    
+                <div id="head_mob_logo_block" class="header__box header__box--logo">
+                    <a class="base-logo" href="https://dev4.bigmag.ua/">
+                        <img src="https://dev4.bigmag.ua/image/catalog/image/Logo/big_mag_original.png" alt="BIG MAG" width="93" height="40">
+                    </a>
+    
+                </div>
+    
+              <div id="head_mob_tel_block" class="header-mobile__box">
+                  <a class="header-mobile__button" href="tel:+38093 773 36 92">
+                      <div class="header-mobile__icon header-mobile__icon--phone">
+                          <!--<use href="#phone-stroke"></use>-->
+                          <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_phone_ico.svg" style="width: 24px;">
+                      </div>
+                  </a>
+                  <a class="header-mobile__button" href="https://dev4.bigmag.ua/cart/">
+                                        <div class="top-svg-cart header-mobile__icon header-mobile__icon--cart">
+                          <!--<use href="#cart"></use>-->
+                          <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_cart_icon.svg">
+                        </div>
+                    </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="shops-wrapper shops__container">
+              
+                <div class="shops_page wrapp">
+                    
+                    <div class="breadcrumbs">
+                        <a href="">
+                            <div class="icon">
+                                <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.86454 9.87786C5.95136 9.7992 6 9.6934 6 9.58319C6 9.47299 5.95136 9.36718 5.86454 9.28853L1.11556 4.99993L5.86454 0.711324C5.95136 0.632671 6 0.526867 6 0.41666C6 0.306455 5.95136 0.200649 5.86454 0.121998C5.68385 -0.0406666 5.39219 -0.0406666 5.21225 0.121998L0.13637 4.70526C0.0490112 4.78366 4.46769e-07 4.88956 4.3712e-07 4.99993C4.27472e-07 5.11029 0.0490112 5.21619 0.13637 5.29459L5.21225 9.87786C5.25471 9.91652 5.30544 9.94724 5.36145 9.96822C5.41746 9.98919 5.47762 10 5.53839 10C5.59917 10 5.65933 9.98919 5.71534 9.96822C5.77135 9.94724 5.82208 9.91652 5.86454 9.87786Z" fill="#363636"/>
+                                </svg>
+                            </div>
+                            <div class="text">
+                                Головна
+                            </div>
+                        </a>
+                    </div>    
+                    
+                    
+
+
+                    <div class="shops-title">
+                       Наші магазини
+                    </div>
+                    <div class="shops-list">
+                        <div class="shops-list__title">
+                            На даний момент наші магазини представлені в:
+                        </div>
+                        <div class="shops-list__wrapper">
+                            <div class="shops-item active">
+                                <div class="shops-item__wrapper">
+                                    <button data-shop="1">
+                                        КИЇВ (ХРЕЩАТИК 13/2)
+                                    </button>
+                                </div>
+                            </div>
+    
+                           
+    
+                            <div class="shops-item">
+                                <div class="shops-item__wrapper">
+                                    <button data-shop="2">
+                                        КИЇВ ТЦ "АЛАДДІН"
+                                    </button>
+                                </div>
+                            </div>
+    
+                            <div class="shops-item">
+                                <div class="shops-item__wrapper">
+                                    <button data-shop="3">
+                                        ОДЕСА
+                                    </button>
+                                </div>
+                            </div>
+    
+                            <div class="shops-item">
+                                <div class="shops-item__wrapper">
+                                    <button data-shop="4">
+                                        ЛЬВІВ
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="shops-title">
+                        Магазин відкритий!
+                     </div>
+                     <div data-shop="1" class="shops-list-body active">
+                         <div class="shops-list__wrapper">
+                            <div class="shop-list__galery">
+                                <div class="swiper-container shop-galery-slider">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="assets/images/shop-1.jpg" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/images/shop-2.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-button-prev">
+                                        <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M31.4119 22.0826C30.326 26.7117 26.7117 30.326 22.0826 31.4119C18.7396 32.196 15.2604 32.196 11.9174 31.4119C7.28834 30.326 3.67395 26.7116 2.58813 22.0826C1.80396 18.7396 1.80396 15.2604 2.58813 11.9174C3.67395 7.28834 7.28835 3.67395 11.9174 2.58813C15.2604 1.80396 18.7396 1.80396 22.0826 2.58813C26.7117 3.67395 30.326 7.28834 31.4119 11.9174C32.196 15.2604 32.196 18.7396 31.4119 22.0826Z" fill="#363636" fill-opacity="0.5" stroke="#363636" stroke-opacity="0.5" stroke-width="4"/>
+                                            <path d="M31.4119 22.0826C30.326 26.7117 26.7117 30.326 22.0826 31.4119C18.7396 32.196 15.2604 32.196 11.9174 31.4119C7.28834 30.326 3.67395 26.7116 2.58813 22.0826C1.80396 18.7396 1.80396 15.2604 2.58813 11.9174C3.67395 7.28834 7.28835 3.67395 11.9174 2.58813C15.2604 1.80396 18.7396 1.80396 22.0826 2.58813C26.7117 3.67395 30.326 7.28834 31.4119 11.9174C32.196 15.2604 32.196 18.7396 31.4119 22.0826Z" stroke="white" stroke-width="1.5"/>
+                                            <path d="M18.6667 21.1663L14.5 16.9997L18.6667 12.833" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            
+                                            
+                                    </div>
+                                    <div class="swiper-button-next">
+                                        <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M2.58813 11.9174C3.67396 7.28834 7.28835 3.67395 11.9174 2.58813C15.2604 1.80396 18.7396 1.80396 22.0826 2.58813C26.7117 3.67395 30.326 7.28835 31.4119 11.9174C32.196 15.2604 32.196 18.7396 31.4119 22.0826C30.326 26.7117 26.7117 30.326 22.0826 31.4119C18.7396 32.196 15.2604 32.196 11.9174 31.4119C7.28835 30.326 3.67396 26.7117 2.58813 22.0826C1.80396 18.7396 1.80396 15.2604 2.58813 11.9174Z" fill="#363636" fill-opacity="0.5" stroke="#363636" stroke-opacity="0.5" stroke-width="4"/>
+                                            <path d="M2.58813 11.9174C3.67396 7.28834 7.28835 3.67395 11.9174 2.58813C15.2604 1.80396 18.7396 1.80396 22.0826 2.58813C26.7117 3.67395 30.326 7.28835 31.4119 11.9174C32.196 15.2604 32.196 18.7396 31.4119 22.0826C30.326 26.7117 26.7117 30.326 22.0826 31.4119C18.7396 32.196 15.2604 32.196 11.9174 31.4119C7.28835 30.326 3.67396 26.7117 2.58813 22.0826C1.80396 18.7396 1.80396 15.2604 2.58813 11.9174Z" stroke="white" stroke-width="1.5"/>
+                                            <path d="M15.3333 12.8337L19.5 17.0003L15.3333 21.167" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                            
+                                            
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-info mobile">
+                                <div class="shop-info__header">
+                                    <span class="icon">
+                                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.18906 14.2187H5.81406C2.72656 14.2187 1.41406 12.9 1.41406 9.8187V7.01245C1.41406 6.7562 1.62656 6.5437 1.88281 6.5437C2.13906 6.5437 2.35156 6.7562 2.35156 7.01245V9.8187C2.35156 12.375 3.25781 13.2812 5.81406 13.2812H9.18281C11.7391 13.2812 12.6453 12.375 12.6453 9.8187V7.01245C12.6453 6.7562 12.8578 6.5437 13.1141 6.5437C13.3703 6.5437 13.5828 6.7562 13.5828 7.01245V9.8187C13.5891 12.9 12.2703 14.2187 9.18906 14.2187Z" fill="#32C220"/>
+                                            <path d="M7.4989 7.96875C6.8114 7.96875 6.1864 7.7 5.74265 7.20625C5.2989 6.7125 5.09265 6.06875 5.1614 5.38125L5.58015 1.20625C5.60515 0.96875 5.80515 0.78125 6.0489 0.78125H8.96765C9.2114 0.78125 9.4114 0.9625 9.4364 1.20625L9.85515 5.38125C9.9239 6.06875 9.71765 6.7125 9.2739 7.20625C8.8114 7.7 8.1864 7.96875 7.4989 7.96875ZM6.46765 1.71875L6.09265 5.475C6.0489 5.89375 6.1739 6.2875 6.4364 6.575C6.96765 7.1625 8.03015 7.1625 8.5614 6.575C8.8239 6.28125 8.9489 5.8875 8.90515 5.475L8.53015 1.71875H6.46765Z" fill="#32C220"/>
+                                            <path d="M11.4474 7.96875C10.1787 7.96875 9.04741 6.94375 8.91616 5.68125L8.47866 1.3C8.46616 1.16875 8.50991 1.0375 8.59741 0.9375C8.68491 0.8375 8.80991 0.78125 8.94741 0.78125H10.8537C12.6912 0.78125 13.5474 1.55 13.8037 3.4375L13.9787 5.175C14.0537 5.9125 13.8287 6.6125 13.3474 7.14375C12.8662 7.675 12.1912 7.96875 11.4474 7.96875ZM9.46616 1.71875L9.85366 5.5875C9.93491 6.36875 10.6599 7.03125 11.4474 7.03125C11.9224 7.03125 12.3474 6.85 12.6537 6.51875C12.9537 6.1875 13.0912 5.74375 13.0474 5.26875L12.8724 3.55C12.6787 2.1375 12.2224 1.71875 10.8537 1.71875H9.46616Z" fill="#32C220"/>
+                                            <path d="M3.52196 7.96875C2.77821 7.96875 2.10321 7.675 1.62196 7.14375C1.14071 6.6125 0.915712 5.9125 0.990712 5.175L1.15946 3.45625C1.42196 1.55 2.27821 0.78125 4.11571 0.78125H6.02196C6.15321 0.78125 6.27821 0.8375 6.37196 0.9375C6.46571 1.0375 6.50321 1.16875 6.49071 1.3L6.05321 5.68125C5.92196 6.94375 4.79071 7.96875 3.52196 7.96875ZM4.11571 1.71875C2.74696 1.71875 2.29071 2.13125 2.09071 3.5625L1.92196 5.26875C1.87196 5.74375 2.01571 6.1875 2.31571 6.51875C2.61571 6.85 3.04071 7.03125 3.52196 7.03125C4.30946 7.03125 5.04071 6.36875 5.11571 5.5875L5.50321 1.71875H4.11571Z" fill="#32C220"/>
+                                            <path d="M9.0625 14.2188H5.9375C5.68125 14.2188 5.46875 14.0062 5.46875 13.75V12.1875C5.46875 10.875 6.1875 10.1562 7.5 10.1562C8.8125 10.1562 9.53125 10.875 9.53125 12.1875V13.75C9.53125 14.0062 9.31875 14.2188 9.0625 14.2188ZM6.40625 13.2812H8.59375V12.1875C8.59375 11.4 8.2875 11.0938 7.5 11.0938C6.7125 11.0938 6.40625 11.4 6.40625 12.1875V13.2812Z" fill="#32C220"/>
+                                        </svg>                          
+                                    </span>
+                                    <span class="text">
+                                        м. Київ, вулиця Хрещатик, 13/2 (ст. м. Майдан Незалежності)
+                                    </span>
+                                </div>
+                                <p>
+                                    Тел. +380 (93) 396 13 50<br>
+                                    <b>Графік роботи:</b><br>
+                                    ПН-НД: 10:00 - 21:00<br>
+                                    (Без вихідних)
+                                </p>
+                             </div>
+                            <div class="shops-list__map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10162.331804028508!2d30.5235953!3d50.4488684!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf1da4314f41%3A0x4a42bcd40cdb895!2z0JHRltCz0LzQsNCz!5e0!3m2!1suk!2sua!4v1724044628692!5m2!1suk!2sua" 
+                                    style="border:0;" 
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                         </div>
+                         <div class="shop-info">
+                            <div class="shop-info__header">
+                                <span class="icon">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.18906 14.2187H5.81406C2.72656 14.2187 1.41406 12.9 1.41406 9.8187V7.01245C1.41406 6.7562 1.62656 6.5437 1.88281 6.5437C2.13906 6.5437 2.35156 6.7562 2.35156 7.01245V9.8187C2.35156 12.375 3.25781 13.2812 5.81406 13.2812H9.18281C11.7391 13.2812 12.6453 12.375 12.6453 9.8187V7.01245C12.6453 6.7562 12.8578 6.5437 13.1141 6.5437C13.3703 6.5437 13.5828 6.7562 13.5828 7.01245V9.8187C13.5891 12.9 12.2703 14.2187 9.18906 14.2187Z" fill="#32C220"/>
+                                        <path d="M7.4989 7.96875C6.8114 7.96875 6.1864 7.7 5.74265 7.20625C5.2989 6.7125 5.09265 6.06875 5.1614 5.38125L5.58015 1.20625C5.60515 0.96875 5.80515 0.78125 6.0489 0.78125H8.96765C9.2114 0.78125 9.4114 0.9625 9.4364 1.20625L9.85515 5.38125C9.9239 6.06875 9.71765 6.7125 9.2739 7.20625C8.8114 7.7 8.1864 7.96875 7.4989 7.96875ZM6.46765 1.71875L6.09265 5.475C6.0489 5.89375 6.1739 6.2875 6.4364 6.575C6.96765 7.1625 8.03015 7.1625 8.5614 6.575C8.8239 6.28125 8.9489 5.8875 8.90515 5.475L8.53015 1.71875H6.46765Z" fill="#32C220"/>
+                                        <path d="M11.4474 7.96875C10.1787 7.96875 9.04741 6.94375 8.91616 5.68125L8.47866 1.3C8.46616 1.16875 8.50991 1.0375 8.59741 0.9375C8.68491 0.8375 8.80991 0.78125 8.94741 0.78125H10.8537C12.6912 0.78125 13.5474 1.55 13.8037 3.4375L13.9787 5.175C14.0537 5.9125 13.8287 6.6125 13.3474 7.14375C12.8662 7.675 12.1912 7.96875 11.4474 7.96875ZM9.46616 1.71875L9.85366 5.5875C9.93491 6.36875 10.6599 7.03125 11.4474 7.03125C11.9224 7.03125 12.3474 6.85 12.6537 6.51875C12.9537 6.1875 13.0912 5.74375 13.0474 5.26875L12.8724 3.55C12.6787 2.1375 12.2224 1.71875 10.8537 1.71875H9.46616Z" fill="#32C220"/>
+                                        <path d="M3.52196 7.96875C2.77821 7.96875 2.10321 7.675 1.62196 7.14375C1.14071 6.6125 0.915712 5.9125 0.990712 5.175L1.15946 3.45625C1.42196 1.55 2.27821 0.78125 4.11571 0.78125H6.02196C6.15321 0.78125 6.27821 0.8375 6.37196 0.9375C6.46571 1.0375 6.50321 1.16875 6.49071 1.3L6.05321 5.68125C5.92196 6.94375 4.79071 7.96875 3.52196 7.96875ZM4.11571 1.71875C2.74696 1.71875 2.29071 2.13125 2.09071 3.5625L1.92196 5.26875C1.87196 5.74375 2.01571 6.1875 2.31571 6.51875C2.61571 6.85 3.04071 7.03125 3.52196 7.03125C4.30946 7.03125 5.04071 6.36875 5.11571 5.5875L5.50321 1.71875H4.11571Z" fill="#32C220"/>
+                                        <path d="M9.0625 14.2188H5.9375C5.68125 14.2188 5.46875 14.0062 5.46875 13.75V12.1875C5.46875 10.875 6.1875 10.1562 7.5 10.1562C8.8125 10.1562 9.53125 10.875 9.53125 12.1875V13.75C9.53125 14.0062 9.31875 14.2188 9.0625 14.2188ZM6.40625 13.2812H8.59375V12.1875C8.59375 11.4 8.2875 11.0938 7.5 11.0938C6.7125 11.0938 6.40625 11.4 6.40625 12.1875V13.2812Z" fill="#32C220"/>
+                                    </svg>                          
+                                </span>
+                                <span class="text">
+                                    м. Київ, вулиця Хрещатик, 13/2 (ст. м. Майдан Незалежності)
+                                </span>
+                            </div>
+                            <p>
+                                Тел. +380 (93) 396 13 50<br>
+                                <b>Графік роботи:</b><br>
+                                ПН-НД: 10:00 - 21:00<br>
+                                (Без вихідних)
+                            </p>
+                         </div>
+                     </div>
+
+                     <div data-shop="2" class="shops-list-body">
+                        <div class="shops-list__wrapper">
+                           <div class="shop-list__galery">
+                               <div class="swiper-container shop-galery-slider">
+                                   <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="assets/images/shop-2.jpg" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/images/shop-3.jpg" alt="">
+                                        </div>
+                                   </div>
+                                   <div class="swiper-button-prev">
+                                       <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                           <path d="M31.4119 22.0826C30.326 26.7117 26.7117 30.326 22.0826 31.4119C18.7396 32.196 15.2604 32.196 11.9174 31.4119C7.28834 30.326 3.67395 26.7116 2.58813 22.0826C1.80396 18.7396 1.80396 15.2604 2.58813 11.9174C3.67395 7.28834 7.28835 3.67395 11.9174 2.58813C15.2604 1.80396 18.7396 1.80396 22.0826 2.58813C26.7117 3.67395 30.326 7.28834 31.4119 11.9174C32.196 15.2604 32.196 18.7396 31.4119 22.0826Z" fill="#363636" fill-opacity="0.5" stroke="#363636" stroke-opacity="0.5" stroke-width="4"/>
+                                           <path d="M31.4119 22.0826C30.326 26.7117 26.7117 30.326 22.0826 31.4119C18.7396 32.196 15.2604 32.196 11.9174 31.4119C7.28834 30.326 3.67395 26.7116 2.58813 22.0826C1.80396 18.7396 1.80396 15.2604 2.58813 11.9174C3.67395 7.28834 7.28835 3.67395 11.9174 2.58813C15.2604 1.80396 18.7396 1.80396 22.0826 2.58813C26.7117 3.67395 30.326 7.28834 31.4119 11.9174C32.196 15.2604 32.196 18.7396 31.4119 22.0826Z" stroke="white" stroke-width="1.5"/>
+                                           <path d="M18.6667 21.1663L14.5 16.9997L18.6667 12.833" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                           </svg>
+                                           
+                                           
+                                   </div>
+                                   <div class="swiper-button-next">
+                                       <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                           <path d="M2.58813 11.9174C3.67396 7.28834 7.28835 3.67395 11.9174 2.58813C15.2604 1.80396 18.7396 1.80396 22.0826 2.58813C26.7117 3.67395 30.326 7.28835 31.4119 11.9174C32.196 15.2604 32.196 18.7396 31.4119 22.0826C30.326 26.7117 26.7117 30.326 22.0826 31.4119C18.7396 32.196 15.2604 32.196 11.9174 31.4119C7.28835 30.326 3.67396 26.7117 2.58813 22.0826C1.80396 18.7396 1.80396 15.2604 2.58813 11.9174Z" fill="#363636" fill-opacity="0.5" stroke="#363636" stroke-opacity="0.5" stroke-width="4"/>
+                                           <path d="M2.58813 11.9174C3.67396 7.28834 7.28835 3.67395 11.9174 2.58813C15.2604 1.80396 18.7396 1.80396 22.0826 2.58813C26.7117 3.67395 30.326 7.28835 31.4119 11.9174C32.196 15.2604 32.196 18.7396 31.4119 22.0826C30.326 26.7117 26.7117 30.326 22.0826 31.4119C18.7396 32.196 15.2604 32.196 11.9174 31.4119C7.28835 30.326 3.67396 26.7117 2.58813 22.0826C1.80396 18.7396 1.80396 15.2604 2.58813 11.9174Z" stroke="white" stroke-width="1.5"/>
+                                           <path d="M15.3333 12.8337L19.5 17.0003L15.3333 21.167" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                       </svg>
+                                           
+                                           
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="shop-info mobile">
+                                <div class="shop-info__header">
+                                    <span class="icon">
+                                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.18906 14.2187H5.81406C2.72656 14.2187 1.41406 12.9 1.41406 9.8187V7.01245C1.41406 6.7562 1.62656 6.5437 1.88281 6.5437C2.13906 6.5437 2.35156 6.7562 2.35156 7.01245V9.8187C2.35156 12.375 3.25781 13.2812 5.81406 13.2812H9.18281C11.7391 13.2812 12.6453 12.375 12.6453 9.8187V7.01245C12.6453 6.7562 12.8578 6.5437 13.1141 6.5437C13.3703 6.5437 13.5828 6.7562 13.5828 7.01245V9.8187C13.5891 12.9 12.2703 14.2187 9.18906 14.2187Z" fill="#32C220"/>
+                                            <path d="M7.4989 7.96875C6.8114 7.96875 6.1864 7.7 5.74265 7.20625C5.2989 6.7125 5.09265 6.06875 5.1614 5.38125L5.58015 1.20625C5.60515 0.96875 5.80515 0.78125 6.0489 0.78125H8.96765C9.2114 0.78125 9.4114 0.9625 9.4364 1.20625L9.85515 5.38125C9.9239 6.06875 9.71765 6.7125 9.2739 7.20625C8.8114 7.7 8.1864 7.96875 7.4989 7.96875ZM6.46765 1.71875L6.09265 5.475C6.0489 5.89375 6.1739 6.2875 6.4364 6.575C6.96765 7.1625 8.03015 7.1625 8.5614 6.575C8.8239 6.28125 8.9489 5.8875 8.90515 5.475L8.53015 1.71875H6.46765Z" fill="#32C220"/>
+                                            <path d="M11.4474 7.96875C10.1787 7.96875 9.04741 6.94375 8.91616 5.68125L8.47866 1.3C8.46616 1.16875 8.50991 1.0375 8.59741 0.9375C8.68491 0.8375 8.80991 0.78125 8.94741 0.78125H10.8537C12.6912 0.78125 13.5474 1.55 13.8037 3.4375L13.9787 5.175C14.0537 5.9125 13.8287 6.6125 13.3474 7.14375C12.8662 7.675 12.1912 7.96875 11.4474 7.96875ZM9.46616 1.71875L9.85366 5.5875C9.93491 6.36875 10.6599 7.03125 11.4474 7.03125C11.9224 7.03125 12.3474 6.85 12.6537 6.51875C12.9537 6.1875 13.0912 5.74375 13.0474 5.26875L12.8724 3.55C12.6787 2.1375 12.2224 1.71875 10.8537 1.71875H9.46616Z" fill="#32C220"/>
+                                            <path d="M3.52196 7.96875C2.77821 7.96875 2.10321 7.675 1.62196 7.14375C1.14071 6.6125 0.915712 5.9125 0.990712 5.175L1.15946 3.45625C1.42196 1.55 2.27821 0.78125 4.11571 0.78125H6.02196C6.15321 0.78125 6.27821 0.8375 6.37196 0.9375C6.46571 1.0375 6.50321 1.16875 6.49071 1.3L6.05321 5.68125C5.92196 6.94375 4.79071 7.96875 3.52196 7.96875ZM4.11571 1.71875C2.74696 1.71875 2.29071 2.13125 2.09071 3.5625L1.92196 5.26875C1.87196 5.74375 2.01571 6.1875 2.31571 6.51875C2.61571 6.85 3.04071 7.03125 3.52196 7.03125C4.30946 7.03125 5.04071 6.36875 5.11571 5.5875L5.50321 1.71875H4.11571Z" fill="#32C220"/>
+                                            <path d="M9.0625 14.2188H5.9375C5.68125 14.2188 5.46875 14.0062 5.46875 13.75V12.1875C5.46875 10.875 6.1875 10.1562 7.5 10.1562C8.8125 10.1562 9.53125 10.875 9.53125 12.1875V13.75C9.53125 14.0062 9.31875 14.2188 9.0625 14.2188ZM6.40625 13.2812H8.59375V12.1875C8.59375 11.4 8.2875 11.0938 7.5 11.0938C6.7125 11.0938 6.40625 11.4 6.40625 12.1875V13.2812Z" fill="#32C220"/>
+                                        </svg>                          
+                                    </span>
+                                    <span class="text">
+                                        м. Київ, Михайла Гришка, 5. ТРЦ «Аладдін», 1 поверх, вхід B 
+                                    </span>
+                                </div>
+                                <p>
+                                    Тел. +380 (93) 348 21 44<br>
+                                    <b>Графік роботи:</b><br>
+                                    ПН-НД: 10:00 - 22:00<br>
+                                    (Без вихідних)
+                                </p>
+                         </div>
+                           <div class="shops-list__map">
+                               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10162.331804028508!2d30.5235953!3d50.4488684!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf1da4314f41%3A0x4a42bcd40cdb895!2z0JHRltCz0LzQsNCz!5e0!3m2!1suk!2sua!4v1724044628692!5m2!1suk!2sua" 
+                                   style="border:0;" 
+                                   allowfullscreen="" 
+                                   loading="lazy" 
+                                   referrerpolicy="no-referrer-when-downgrade">
+                               </iframe>
+                           </div>
+                        </div>
+                        <div class="shop-info">
+                           <div class="shop-info__header">
+                               <span class="icon">
+                                   <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M9.18906 14.2187H5.81406C2.72656 14.2187 1.41406 12.9 1.41406 9.8187V7.01245C1.41406 6.7562 1.62656 6.5437 1.88281 6.5437C2.13906 6.5437 2.35156 6.7562 2.35156 7.01245V9.8187C2.35156 12.375 3.25781 13.2812 5.81406 13.2812H9.18281C11.7391 13.2812 12.6453 12.375 12.6453 9.8187V7.01245C12.6453 6.7562 12.8578 6.5437 13.1141 6.5437C13.3703 6.5437 13.5828 6.7562 13.5828 7.01245V9.8187C13.5891 12.9 12.2703 14.2187 9.18906 14.2187Z" fill="#32C220"/>
+                                       <path d="M7.4989 7.96875C6.8114 7.96875 6.1864 7.7 5.74265 7.20625C5.2989 6.7125 5.09265 6.06875 5.1614 5.38125L5.58015 1.20625C5.60515 0.96875 5.80515 0.78125 6.0489 0.78125H8.96765C9.2114 0.78125 9.4114 0.9625 9.4364 1.20625L9.85515 5.38125C9.9239 6.06875 9.71765 6.7125 9.2739 7.20625C8.8114 7.7 8.1864 7.96875 7.4989 7.96875ZM6.46765 1.71875L6.09265 5.475C6.0489 5.89375 6.1739 6.2875 6.4364 6.575C6.96765 7.1625 8.03015 7.1625 8.5614 6.575C8.8239 6.28125 8.9489 5.8875 8.90515 5.475L8.53015 1.71875H6.46765Z" fill="#32C220"/>
+                                       <path d="M11.4474 7.96875C10.1787 7.96875 9.04741 6.94375 8.91616 5.68125L8.47866 1.3C8.46616 1.16875 8.50991 1.0375 8.59741 0.9375C8.68491 0.8375 8.80991 0.78125 8.94741 0.78125H10.8537C12.6912 0.78125 13.5474 1.55 13.8037 3.4375L13.9787 5.175C14.0537 5.9125 13.8287 6.6125 13.3474 7.14375C12.8662 7.675 12.1912 7.96875 11.4474 7.96875ZM9.46616 1.71875L9.85366 5.5875C9.93491 6.36875 10.6599 7.03125 11.4474 7.03125C11.9224 7.03125 12.3474 6.85 12.6537 6.51875C12.9537 6.1875 13.0912 5.74375 13.0474 5.26875L12.8724 3.55C12.6787 2.1375 12.2224 1.71875 10.8537 1.71875H9.46616Z" fill="#32C220"/>
+                                       <path d="M3.52196 7.96875C2.77821 7.96875 2.10321 7.675 1.62196 7.14375C1.14071 6.6125 0.915712 5.9125 0.990712 5.175L1.15946 3.45625C1.42196 1.55 2.27821 0.78125 4.11571 0.78125H6.02196C6.15321 0.78125 6.27821 0.8375 6.37196 0.9375C6.46571 1.0375 6.50321 1.16875 6.49071 1.3L6.05321 5.68125C5.92196 6.94375 4.79071 7.96875 3.52196 7.96875ZM4.11571 1.71875C2.74696 1.71875 2.29071 2.13125 2.09071 3.5625L1.92196 5.26875C1.87196 5.74375 2.01571 6.1875 2.31571 6.51875C2.61571 6.85 3.04071 7.03125 3.52196 7.03125C4.30946 7.03125 5.04071 6.36875 5.11571 5.5875L5.50321 1.71875H4.11571Z" fill="#32C220"/>
+                                       <path d="M9.0625 14.2188H5.9375C5.68125 14.2188 5.46875 14.0062 5.46875 13.75V12.1875C5.46875 10.875 6.1875 10.1562 7.5 10.1562C8.8125 10.1562 9.53125 10.875 9.53125 12.1875V13.75C9.53125 14.0062 9.31875 14.2188 9.0625 14.2188ZM6.40625 13.2812H8.59375V12.1875C8.59375 11.4 8.2875 11.0938 7.5 11.0938C6.7125 11.0938 6.40625 11.4 6.40625 12.1875V13.2812Z" fill="#32C220"/>
+                                   </svg>                          
+                               </span>
+                               <span class="text">
+                                    м. Київ, Михайла Гришка, 5. ТРЦ «Аладдін», 1 поверх, вхід B 
+                               </span>
+                           </div>
+                           <p>
+                               Тел. +380 (93) 348 21 44<br>
+                               <b>Графік роботи:</b><br>
+                               ПН-НД: 10:00 - 22:00<br>
+                               (Без вихідних)
+                           </p>
+                        </div>
+                    </div>
+
+                    <div data-shop="3" class="shops-list-body">
+                        <div class="shops-list__wrapper">
+                           <div class="shop-list__galery">
+                               <div class="swiper-container shop-galery-slider">
+                                   <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="assets/images/shop-3.jpg" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/images/shop-4.jpg" alt="">
+                                        </div>
+                                   </div>
+                                   <div class="swiper-button-prev">
+                                       <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                           <path d="M31.4119 22.0826C30.326 26.7117 26.7117 30.326 22.0826 31.4119C18.7396 32.196 15.2604 32.196 11.9174 31.4119C7.28834 30.326 3.67395 26.7116 2.58813 22.0826C1.80396 18.7396 1.80396 15.2604 2.58813 11.9174C3.67395 7.28834 7.28835 3.67395 11.9174 2.58813C15.2604 1.80396 18.7396 1.80396 22.0826 2.58813C26.7117 3.67395 30.326 7.28834 31.4119 11.9174C32.196 15.2604 32.196 18.7396 31.4119 22.0826Z" fill="#363636" fill-opacity="0.5" stroke="#363636" stroke-opacity="0.5" stroke-width="4"/>
+                                           <path d="M31.4119 22.0826C30.326 26.7117 26.7117 30.326 22.0826 31.4119C18.7396 32.196 15.2604 32.196 11.9174 31.4119C7.28834 30.326 3.67395 26.7116 2.58813 22.0826C1.80396 18.7396 1.80396 15.2604 2.58813 11.9174C3.67395 7.28834 7.28835 3.67395 11.9174 2.58813C15.2604 1.80396 18.7396 1.80396 22.0826 2.58813C26.7117 3.67395 30.326 7.28834 31.4119 11.9174C32.196 15.2604 32.196 18.7396 31.4119 22.0826Z" stroke="white" stroke-width="1.5"/>
+                                           <path d="M18.6667 21.1663L14.5 16.9997L18.6667 12.833" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                           </svg>
+                                           
+                                           
+                                   </div>
+                                   <div class="swiper-button-next">
+                                       <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                           <path d="M2.58813 11.9174C3.67396 7.28834 7.28835 3.67395 11.9174 2.58813C15.2604 1.80396 18.7396 1.80396 22.0826 2.58813C26.7117 3.67395 30.326 7.28835 31.4119 11.9174C32.196 15.2604 32.196 18.7396 31.4119 22.0826C30.326 26.7117 26.7117 30.326 22.0826 31.4119C18.7396 32.196 15.2604 32.196 11.9174 31.4119C7.28835 30.326 3.67396 26.7117 2.58813 22.0826C1.80396 18.7396 1.80396 15.2604 2.58813 11.9174Z" fill="#363636" fill-opacity="0.5" stroke="#363636" stroke-opacity="0.5" stroke-width="4"/>
+                                           <path d="M2.58813 11.9174C3.67396 7.28834 7.28835 3.67395 11.9174 2.58813C15.2604 1.80396 18.7396 1.80396 22.0826 2.58813C26.7117 3.67395 30.326 7.28835 31.4119 11.9174C32.196 15.2604 32.196 18.7396 31.4119 22.0826C30.326 26.7117 26.7117 30.326 22.0826 31.4119C18.7396 32.196 15.2604 32.196 11.9174 31.4119C7.28835 30.326 3.67396 26.7117 2.58813 22.0826C1.80396 18.7396 1.80396 15.2604 2.58813 11.9174Z" stroke="white" stroke-width="1.5"/>
+                                           <path d="M15.3333 12.8337L19.5 17.0003L15.3333 21.167" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                       </svg>
+                                           
+                                           
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="shop-info mobile">
+                            <div class="shop-info__header">
+                                <span class="icon">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.18906 14.2187H5.81406C2.72656 14.2187 1.41406 12.9 1.41406 9.8187V7.01245C1.41406 6.7562 1.62656 6.5437 1.88281 6.5437C2.13906 6.5437 2.35156 6.7562 2.35156 7.01245V9.8187C2.35156 12.375 3.25781 13.2812 5.81406 13.2812H9.18281C11.7391 13.2812 12.6453 12.375 12.6453 9.8187V7.01245C12.6453 6.7562 12.8578 6.5437 13.1141 6.5437C13.3703 6.5437 13.5828 6.7562 13.5828 7.01245V9.8187C13.5891 12.9 12.2703 14.2187 9.18906 14.2187Z" fill="#32C220"/>
+                                        <path d="M7.4989 7.96875C6.8114 7.96875 6.1864 7.7 5.74265 7.20625C5.2989 6.7125 5.09265 6.06875 5.1614 5.38125L5.58015 1.20625C5.60515 0.96875 5.80515 0.78125 6.0489 0.78125H8.96765C9.2114 0.78125 9.4114 0.9625 9.4364 1.20625L9.85515 5.38125C9.9239 6.06875 9.71765 6.7125 9.2739 7.20625C8.8114 7.7 8.1864 7.96875 7.4989 7.96875ZM6.46765 1.71875L6.09265 5.475C6.0489 5.89375 6.1739 6.2875 6.4364 6.575C6.96765 7.1625 8.03015 7.1625 8.5614 6.575C8.8239 6.28125 8.9489 5.8875 8.90515 5.475L8.53015 1.71875H6.46765Z" fill="#32C220"/>
+                                        <path d="M11.4474 7.96875C10.1787 7.96875 9.04741 6.94375 8.91616 5.68125L8.47866 1.3C8.46616 1.16875 8.50991 1.0375 8.59741 0.9375C8.68491 0.8375 8.80991 0.78125 8.94741 0.78125H10.8537C12.6912 0.78125 13.5474 1.55 13.8037 3.4375L13.9787 5.175C14.0537 5.9125 13.8287 6.6125 13.3474 7.14375C12.8662 7.675 12.1912 7.96875 11.4474 7.96875ZM9.46616 1.71875L9.85366 5.5875C9.93491 6.36875 10.6599 7.03125 11.4474 7.03125C11.9224 7.03125 12.3474 6.85 12.6537 6.51875C12.9537 6.1875 13.0912 5.74375 13.0474 5.26875L12.8724 3.55C12.6787 2.1375 12.2224 1.71875 10.8537 1.71875H9.46616Z" fill="#32C220"/>
+                                        <path d="M3.52196 7.96875C2.77821 7.96875 2.10321 7.675 1.62196 7.14375C1.14071 6.6125 0.915712 5.9125 0.990712 5.175L1.15946 3.45625C1.42196 1.55 2.27821 0.78125 4.11571 0.78125H6.02196C6.15321 0.78125 6.27821 0.8375 6.37196 0.9375C6.46571 1.0375 6.50321 1.16875 6.49071 1.3L6.05321 5.68125C5.92196 6.94375 4.79071 7.96875 3.52196 7.96875ZM4.11571 1.71875C2.74696 1.71875 2.29071 2.13125 2.09071 3.5625L1.92196 5.26875C1.87196 5.74375 2.01571 6.1875 2.31571 6.51875C2.61571 6.85 3.04071 7.03125 3.52196 7.03125C4.30946 7.03125 5.04071 6.36875 5.11571 5.5875L5.50321 1.71875H4.11571Z" fill="#32C220"/>
+                                        <path d="M9.0625 14.2188H5.9375C5.68125 14.2188 5.46875 14.0062 5.46875 13.75V12.1875C5.46875 10.875 6.1875 10.1562 7.5 10.1562C8.8125 10.1562 9.53125 10.875 9.53125 12.1875V13.75C9.53125 14.0062 9.31875 14.2188 9.0625 14.2188ZM6.40625 13.2812H8.59375V12.1875C8.59375 11.4 8.2875 11.0938 7.5 11.0938C6.7125 11.0938 6.40625 11.4 6.40625 12.1875V13.2812Z" fill="#32C220"/>
+                                    </svg>                          
+                                </span>
+                                <span class="text">
+                                  м. Одеса, проспект Українських Героїв,5 (Олександрівський проспект,5)
+                                </span>
+                            </div>
+                            <p>
+                                Тел. +380 (63) 383 78 11<br>
+                                <b>Графік роботи:</b><br>
+                                ПН-НД: 10:00 - 20:00<br>
+                                (Без вихідних)
+                            </p>
+                         </div>
+                           <div class="shops-list__map">
+                               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10162.331804028508!2d30.5235953!3d50.4488684!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf1da4314f41%3A0x4a42bcd40cdb895!2z0JHRltCz0LzQsNCz!5e0!3m2!1suk!2sua!4v1724044628692!5m2!1suk!2sua" 
+                                   style="border:0;" 
+                                   allowfullscreen="" 
+                                   loading="lazy" 
+                                   referrerpolicy="no-referrer-when-downgrade">
+                               </iframe>
+                           </div>
+                        </div>
+                        <div class="shop-info">
+                           <div class="shop-info__header">
+                               <span class="icon">
+                                   <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M9.18906 14.2187H5.81406C2.72656 14.2187 1.41406 12.9 1.41406 9.8187V7.01245C1.41406 6.7562 1.62656 6.5437 1.88281 6.5437C2.13906 6.5437 2.35156 6.7562 2.35156 7.01245V9.8187C2.35156 12.375 3.25781 13.2812 5.81406 13.2812H9.18281C11.7391 13.2812 12.6453 12.375 12.6453 9.8187V7.01245C12.6453 6.7562 12.8578 6.5437 13.1141 6.5437C13.3703 6.5437 13.5828 6.7562 13.5828 7.01245V9.8187C13.5891 12.9 12.2703 14.2187 9.18906 14.2187Z" fill="#32C220"/>
+                                       <path d="M7.4989 7.96875C6.8114 7.96875 6.1864 7.7 5.74265 7.20625C5.2989 6.7125 5.09265 6.06875 5.1614 5.38125L5.58015 1.20625C5.60515 0.96875 5.80515 0.78125 6.0489 0.78125H8.96765C9.2114 0.78125 9.4114 0.9625 9.4364 1.20625L9.85515 5.38125C9.9239 6.06875 9.71765 6.7125 9.2739 7.20625C8.8114 7.7 8.1864 7.96875 7.4989 7.96875ZM6.46765 1.71875L6.09265 5.475C6.0489 5.89375 6.1739 6.2875 6.4364 6.575C6.96765 7.1625 8.03015 7.1625 8.5614 6.575C8.8239 6.28125 8.9489 5.8875 8.90515 5.475L8.53015 1.71875H6.46765Z" fill="#32C220"/>
+                                       <path d="M11.4474 7.96875C10.1787 7.96875 9.04741 6.94375 8.91616 5.68125L8.47866 1.3C8.46616 1.16875 8.50991 1.0375 8.59741 0.9375C8.68491 0.8375 8.80991 0.78125 8.94741 0.78125H10.8537C12.6912 0.78125 13.5474 1.55 13.8037 3.4375L13.9787 5.175C14.0537 5.9125 13.8287 6.6125 13.3474 7.14375C12.8662 7.675 12.1912 7.96875 11.4474 7.96875ZM9.46616 1.71875L9.85366 5.5875C9.93491 6.36875 10.6599 7.03125 11.4474 7.03125C11.9224 7.03125 12.3474 6.85 12.6537 6.51875C12.9537 6.1875 13.0912 5.74375 13.0474 5.26875L12.8724 3.55C12.6787 2.1375 12.2224 1.71875 10.8537 1.71875H9.46616Z" fill="#32C220"/>
+                                       <path d="M3.52196 7.96875C2.77821 7.96875 2.10321 7.675 1.62196 7.14375C1.14071 6.6125 0.915712 5.9125 0.990712 5.175L1.15946 3.45625C1.42196 1.55 2.27821 0.78125 4.11571 0.78125H6.02196C6.15321 0.78125 6.27821 0.8375 6.37196 0.9375C6.46571 1.0375 6.50321 1.16875 6.49071 1.3L6.05321 5.68125C5.92196 6.94375 4.79071 7.96875 3.52196 7.96875ZM4.11571 1.71875C2.74696 1.71875 2.29071 2.13125 2.09071 3.5625L1.92196 5.26875C1.87196 5.74375 2.01571 6.1875 2.31571 6.51875C2.61571 6.85 3.04071 7.03125 3.52196 7.03125C4.30946 7.03125 5.04071 6.36875 5.11571 5.5875L5.50321 1.71875H4.11571Z" fill="#32C220"/>
+                                       <path d="M9.0625 14.2188H5.9375C5.68125 14.2188 5.46875 14.0062 5.46875 13.75V12.1875C5.46875 10.875 6.1875 10.1562 7.5 10.1562C8.8125 10.1562 9.53125 10.875 9.53125 12.1875V13.75C9.53125 14.0062 9.31875 14.2188 9.0625 14.2188ZM6.40625 13.2812H8.59375V12.1875C8.59375 11.4 8.2875 11.0938 7.5 11.0938C6.7125 11.0938 6.40625 11.4 6.40625 12.1875V13.2812Z" fill="#32C220"/>
+                                   </svg>                          
+                               </span>
+                               <span class="text">
+                                 м. Одеса, проспект Українських Героїв,5 (Олександрівський проспект,5)
+                               </span>
+                           </div>
+                           <p>
+                               Тел. +380 (63) 383 78 11<br>
+                               <b>Графік роботи:</b><br>
+                               ПН-НД: 10:00 - 20:00<br>
+                               (Без вихідних)
+                           </p>
+                        </div>
+                    </div>
+
+                    <div data-shop="4" class="shops-list-body">
+                        <div class="shops-list__wrapper">
+                           <div class="shop-list__galery">
+                               <div class="swiper-container shop-galery-slider">
+                                   <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="assets/images/shop-4.jpg" alt="">
+                                        </div>
+                                   </div>
+                                   <div class="swiper-button-prev">
+                                       <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                           <path d="M31.4119 22.0826C30.326 26.7117 26.7117 30.326 22.0826 31.4119C18.7396 32.196 15.2604 32.196 11.9174 31.4119C7.28834 30.326 3.67395 26.7116 2.58813 22.0826C1.80396 18.7396 1.80396 15.2604 2.58813 11.9174C3.67395 7.28834 7.28835 3.67395 11.9174 2.58813C15.2604 1.80396 18.7396 1.80396 22.0826 2.58813C26.7117 3.67395 30.326 7.28834 31.4119 11.9174C32.196 15.2604 32.196 18.7396 31.4119 22.0826Z" fill="#363636" fill-opacity="0.5" stroke="#363636" stroke-opacity="0.5" stroke-width="4"/>
+                                           <path d="M31.4119 22.0826C30.326 26.7117 26.7117 30.326 22.0826 31.4119C18.7396 32.196 15.2604 32.196 11.9174 31.4119C7.28834 30.326 3.67395 26.7116 2.58813 22.0826C1.80396 18.7396 1.80396 15.2604 2.58813 11.9174C3.67395 7.28834 7.28835 3.67395 11.9174 2.58813C15.2604 1.80396 18.7396 1.80396 22.0826 2.58813C26.7117 3.67395 30.326 7.28834 31.4119 11.9174C32.196 15.2604 32.196 18.7396 31.4119 22.0826Z" stroke="white" stroke-width="1.5"/>
+                                           <path d="M18.6667 21.1663L14.5 16.9997L18.6667 12.833" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                           </svg>
+                                           
+                                           
+                                   </div>
+                                   <div class="swiper-button-next">
+                                       <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                           <path d="M2.58813 11.9174C3.67396 7.28834 7.28835 3.67395 11.9174 2.58813C15.2604 1.80396 18.7396 1.80396 22.0826 2.58813C26.7117 3.67395 30.326 7.28835 31.4119 11.9174C32.196 15.2604 32.196 18.7396 31.4119 22.0826C30.326 26.7117 26.7117 30.326 22.0826 31.4119C18.7396 32.196 15.2604 32.196 11.9174 31.4119C7.28835 30.326 3.67396 26.7117 2.58813 22.0826C1.80396 18.7396 1.80396 15.2604 2.58813 11.9174Z" fill="#363636" fill-opacity="0.5" stroke="#363636" stroke-opacity="0.5" stroke-width="4"/>
+                                           <path d="M2.58813 11.9174C3.67396 7.28834 7.28835 3.67395 11.9174 2.58813C15.2604 1.80396 18.7396 1.80396 22.0826 2.58813C26.7117 3.67395 30.326 7.28835 31.4119 11.9174C32.196 15.2604 32.196 18.7396 31.4119 22.0826C30.326 26.7117 26.7117 30.326 22.0826 31.4119C18.7396 32.196 15.2604 32.196 11.9174 31.4119C7.28835 30.326 3.67396 26.7117 2.58813 22.0826C1.80396 18.7396 1.80396 15.2604 2.58813 11.9174Z" stroke="white" stroke-width="1.5"/>
+                                           <path d="M15.3333 12.8337L19.5 17.0003L15.3333 21.167" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                       </svg>
+                                           
+                                           
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="shop-info mobile">
+                            <div class="shop-info__header">
+                                <span class="icon">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.18906 14.2187H5.81406C2.72656 14.2187 1.41406 12.9 1.41406 9.8187V7.01245C1.41406 6.7562 1.62656 6.5437 1.88281 6.5437C2.13906 6.5437 2.35156 6.7562 2.35156 7.01245V9.8187C2.35156 12.375 3.25781 13.2812 5.81406 13.2812H9.18281C11.7391 13.2812 12.6453 12.375 12.6453 9.8187V7.01245C12.6453 6.7562 12.8578 6.5437 13.1141 6.5437C13.3703 6.5437 13.5828 6.7562 13.5828 7.01245V9.8187C13.5891 12.9 12.2703 14.2187 9.18906 14.2187Z" fill="#32C220"/>
+                                        <path d="M7.4989 7.96875C6.8114 7.96875 6.1864 7.7 5.74265 7.20625C5.2989 6.7125 5.09265 6.06875 5.1614 5.38125L5.58015 1.20625C5.60515 0.96875 5.80515 0.78125 6.0489 0.78125H8.96765C9.2114 0.78125 9.4114 0.9625 9.4364 1.20625L9.85515 5.38125C9.9239 6.06875 9.71765 6.7125 9.2739 7.20625C8.8114 7.7 8.1864 7.96875 7.4989 7.96875ZM6.46765 1.71875L6.09265 5.475C6.0489 5.89375 6.1739 6.2875 6.4364 6.575C6.96765 7.1625 8.03015 7.1625 8.5614 6.575C8.8239 6.28125 8.9489 5.8875 8.90515 5.475L8.53015 1.71875H6.46765Z" fill="#32C220"/>
+                                        <path d="M11.4474 7.96875C10.1787 7.96875 9.04741 6.94375 8.91616 5.68125L8.47866 1.3C8.46616 1.16875 8.50991 1.0375 8.59741 0.9375C8.68491 0.8375 8.80991 0.78125 8.94741 0.78125H10.8537C12.6912 0.78125 13.5474 1.55 13.8037 3.4375L13.9787 5.175C14.0537 5.9125 13.8287 6.6125 13.3474 7.14375C12.8662 7.675 12.1912 7.96875 11.4474 7.96875ZM9.46616 1.71875L9.85366 5.5875C9.93491 6.36875 10.6599 7.03125 11.4474 7.03125C11.9224 7.03125 12.3474 6.85 12.6537 6.51875C12.9537 6.1875 13.0912 5.74375 13.0474 5.26875L12.8724 3.55C12.6787 2.1375 12.2224 1.71875 10.8537 1.71875H9.46616Z" fill="#32C220"/>
+                                        <path d="M3.52196 7.96875C2.77821 7.96875 2.10321 7.675 1.62196 7.14375C1.14071 6.6125 0.915712 5.9125 0.990712 5.175L1.15946 3.45625C1.42196 1.55 2.27821 0.78125 4.11571 0.78125H6.02196C6.15321 0.78125 6.27821 0.8375 6.37196 0.9375C6.46571 1.0375 6.50321 1.16875 6.49071 1.3L6.05321 5.68125C5.92196 6.94375 4.79071 7.96875 3.52196 7.96875ZM4.11571 1.71875C2.74696 1.71875 2.29071 2.13125 2.09071 3.5625L1.92196 5.26875C1.87196 5.74375 2.01571 6.1875 2.31571 6.51875C2.61571 6.85 3.04071 7.03125 3.52196 7.03125C4.30946 7.03125 5.04071 6.36875 5.11571 5.5875L5.50321 1.71875H4.11571Z" fill="#32C220"/>
+                                        <path d="M9.0625 14.2188H5.9375C5.68125 14.2188 5.46875 14.0062 5.46875 13.75V12.1875C5.46875 10.875 6.1875 10.1562 7.5 10.1562C8.8125 10.1562 9.53125 10.875 9.53125 12.1875V13.75C9.53125 14.0062 9.31875 14.2188 9.0625 14.2188ZM6.40625 13.2812H8.59375V12.1875C8.59375 11.4 8.2875 11.0938 7.5 11.0938C6.7125 11.0938 6.40625 11.4 6.40625 12.1875V13.2812Z" fill="#32C220"/>
+                                    </svg>                          
+                                </span>
+                                <span class="text">
+                                 м. Львів, вулиця Пантелеймона Куліша, 47, Львівська область, 79000
+                                </span>
+                            </div>
+                            <p>
+                                Тел. +380 (67) 685 82 00<br>
+                                <b>Графік роботи:</b><br>
+                                ПН-НД: 10:00 - 20:00<br>
+                                (Без вихідних)
+                            </p>
+                         </div>
+                           <div class="shops-list__map">
+                               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10162.331804028508!2d30.5235953!3d50.4488684!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf1da4314f41%3A0x4a42bcd40cdb895!2z0JHRltCz0LzQsNCz!5e0!3m2!1suk!2sua!4v1724044628692!5m2!1suk!2sua" 
+                                   style="border:0;" 
+                                   allowfullscreen="" 
+                                   loading="lazy" 
+                                   referrerpolicy="no-referrer-when-downgrade">
+                               </iframe>
+                           </div>
+                        </div>
+                        <div class="shop-info">
+                           <div class="shop-info__header">
+                               <span class="icon">
+                                   <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M9.18906 14.2187H5.81406C2.72656 14.2187 1.41406 12.9 1.41406 9.8187V7.01245C1.41406 6.7562 1.62656 6.5437 1.88281 6.5437C2.13906 6.5437 2.35156 6.7562 2.35156 7.01245V9.8187C2.35156 12.375 3.25781 13.2812 5.81406 13.2812H9.18281C11.7391 13.2812 12.6453 12.375 12.6453 9.8187V7.01245C12.6453 6.7562 12.8578 6.5437 13.1141 6.5437C13.3703 6.5437 13.5828 6.7562 13.5828 7.01245V9.8187C13.5891 12.9 12.2703 14.2187 9.18906 14.2187Z" fill="#32C220"/>
+                                       <path d="M7.4989 7.96875C6.8114 7.96875 6.1864 7.7 5.74265 7.20625C5.2989 6.7125 5.09265 6.06875 5.1614 5.38125L5.58015 1.20625C5.60515 0.96875 5.80515 0.78125 6.0489 0.78125H8.96765C9.2114 0.78125 9.4114 0.9625 9.4364 1.20625L9.85515 5.38125C9.9239 6.06875 9.71765 6.7125 9.2739 7.20625C8.8114 7.7 8.1864 7.96875 7.4989 7.96875ZM6.46765 1.71875L6.09265 5.475C6.0489 5.89375 6.1739 6.2875 6.4364 6.575C6.96765 7.1625 8.03015 7.1625 8.5614 6.575C8.8239 6.28125 8.9489 5.8875 8.90515 5.475L8.53015 1.71875H6.46765Z" fill="#32C220"/>
+                                       <path d="M11.4474 7.96875C10.1787 7.96875 9.04741 6.94375 8.91616 5.68125L8.47866 1.3C8.46616 1.16875 8.50991 1.0375 8.59741 0.9375C8.68491 0.8375 8.80991 0.78125 8.94741 0.78125H10.8537C12.6912 0.78125 13.5474 1.55 13.8037 3.4375L13.9787 5.175C14.0537 5.9125 13.8287 6.6125 13.3474 7.14375C12.8662 7.675 12.1912 7.96875 11.4474 7.96875ZM9.46616 1.71875L9.85366 5.5875C9.93491 6.36875 10.6599 7.03125 11.4474 7.03125C11.9224 7.03125 12.3474 6.85 12.6537 6.51875C12.9537 6.1875 13.0912 5.74375 13.0474 5.26875L12.8724 3.55C12.6787 2.1375 12.2224 1.71875 10.8537 1.71875H9.46616Z" fill="#32C220"/>
+                                       <path d="M3.52196 7.96875C2.77821 7.96875 2.10321 7.675 1.62196 7.14375C1.14071 6.6125 0.915712 5.9125 0.990712 5.175L1.15946 3.45625C1.42196 1.55 2.27821 0.78125 4.11571 0.78125H6.02196C6.15321 0.78125 6.27821 0.8375 6.37196 0.9375C6.46571 1.0375 6.50321 1.16875 6.49071 1.3L6.05321 5.68125C5.92196 6.94375 4.79071 7.96875 3.52196 7.96875ZM4.11571 1.71875C2.74696 1.71875 2.29071 2.13125 2.09071 3.5625L1.92196 5.26875C1.87196 5.74375 2.01571 6.1875 2.31571 6.51875C2.61571 6.85 3.04071 7.03125 3.52196 7.03125C4.30946 7.03125 5.04071 6.36875 5.11571 5.5875L5.50321 1.71875H4.11571Z" fill="#32C220"/>
+                                       <path d="M9.0625 14.2188H5.9375C5.68125 14.2188 5.46875 14.0062 5.46875 13.75V12.1875C5.46875 10.875 6.1875 10.1562 7.5 10.1562C8.8125 10.1562 9.53125 10.875 9.53125 12.1875V13.75C9.53125 14.0062 9.31875 14.2188 9.0625 14.2188ZM6.40625 13.2812H8.59375V12.1875C8.59375 11.4 8.2875 11.0938 7.5 11.0938C6.7125 11.0938 6.40625 11.4 6.40625 12.1875V13.2812Z" fill="#32C220"/>
+                                   </svg>                          
+                               </span>
+                               <span class="text">
+                                м. Львів, вулиця Пантелеймона Куліша, 47, Львівська область, 79000
+                               </span>
+                           </div>
+                           <p>
+                               Тел. +380 (67) 685 82 00<br>
+                               <b>Графік роботи:</b><br>
+                               ПН-НД: 10:00 - 20:00<br>
+                               (Без вихідних)
+                           </p>
+                        </div>
+                    </div>
+
+                            
+        
+                </div>
+
+    
+
+        </div>
+        <div class="about-feature-block">
+            <div class="row wrapper wrapper_no_padding wrapper_850">
+                <div class="">
+                    <div class="about-feature-title">Про BigMag:</div>
+                    <div class="about-feature-wrap">
+                        <div class="af-block af-block_gray_bg">
+                            <div class="af-image"><img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/main_about1.svg" width="70" height="70" alt="<strong>10 лет</strong> на рынке Украины"></div>
+                            <div class="af-title"><strong>10 лет</strong> на рынке Украины</div>
+                        </div>
+                        <div class="af-block af-block_gray_bg">
+                            <div class="af-image"><img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/main_about2.svg" width="70" height="70" alt="Больше <strong>100.000 клиентов</strong>"></div>
+                            <div class="af-title">Больше <strong>100.000 клиентов</strong></div>
+                        </div>
+                        <!--
+                        <div class="af-block">
+                            <div class="af-image"><a class="" target="_blank" rel="nofollow noopener" href="https://bigmag.ua/ua/sub-magaziny-1/"><img src="image/about/about3.svg" width="70" height="70" alt=""></a></div>
+                            <div class="af-title"><a class="" target="_blank" rel="nofollow noopener" href="https://bigmag.ua/ua/sub-magaziny-1/">
+    <strong>4 магазина</strong></a> в Украине</div>
+                        </div>
+                        -->
+                        <div class="af-block af-block_gray_bg">
+                            <div class="af-image"><a class="" target="_blank" rel="nofollow noopener" href="https://maps.app.goo.gl/LpweevCmDZm5rBd5A"><img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/main_about4.svg" width="70" height="70" alt=""></a></div>
+                            <div class="af-title"><a class="" target="_blank" rel="nofollow noopener" href="https://maps.app.goo.gl/LpweevCmDZm5rBd5A">
+    <strong>1000+ отзывов</strong></a> на Google, средняя <strong>оценка 4,6*</strong></div>
+                        </div>
+                        <!--
+                        <div class="af-block">
+                            <div class="af-image"><img src="image/about/about5.svg" width="70" height="70" alt="Работаем <strong>7 дней</strong> в неделю и <strong>12 часов</strong> каждый день"></div>
+                            <div class="af-title">Работаем <strong>7 дней</strong> в неделю и <strong>12 часов</strong> каждый день</div>
+                        </div>
+                        -->
+                        <div class="af-block af-block_gray_bg">
+                            <div class="af-image"><img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/main_about6.svg" width="70" height="70" alt=""></div>
+                            <div class="af-title">Аудитория в <a class="" target="_blank" rel="nofollow noopener" href="https://www.instagram.com/bigmag_ua/">
+    <strong>Instagram 117.000</strong></a> и <a class="" target="_blank" rel="nofollow noopener" href="https://www.tiktok.com/@bigmag_ua"><strong>TikTok 112.000</strong></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="overlay"></div>
+    </main>
+   
+</body>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- <script src="dist/app-min.js"></script> -->
+  <!-- <script src="assets/app.js"></script> -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const galleryShops = new Swiper('.shop-galery-slider', {
+                spaceBetween: 15,
+                slidesPerView: 1,
+                freeMode: false,
+                watchSlidesVisibility: true,
+                watchSlidesProgress: true,
+                slideToClickedSlide: true,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                breakpoints: {
+                    1024: {
+                        spaceBetween: 25,
+                    }
+                }
+            });
+            const buttons = document.querySelectorAll('.shops-item button');
+                // Отримати всі контейнери інформації про магазини
+                const shopBodies = document.querySelectorAll('.shops-list-body');
+                
+                buttons.forEach(button => {
+                    button.addEventListener('click', () => {
+                        // Зняти клас active з усіх кнопок і магазинів
+                        buttons.forEach(btn => btn.parentElement.parentElement.classList.remove('active'));
+                        shopBodies.forEach(body => body.classList.remove('active'));
+                        
+                        // Додати клас active до кнопки, на яку клікнули
+                        button.parentElement.parentElement.classList.add('active');
+                        
+                        // Додати клас active до відповідного контейнера з інформацією про магазин
+                        const shopId = button.getAttribute('data-shop');
+                        const targetShopBody = document.querySelector(`.shops-list-body[data-shop="${shopId}"]`);
+                        if (targetShopBody) {
+                            targetShopBody.classList.add('active');
+                        }
+                    });
+                });
+
+        })
+
+
+        
+    </script>
+</html>

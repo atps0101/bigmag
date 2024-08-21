@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Reviews</title>
+    <link rel="stylesheet" href="dist/style-min.css?v=1"> 
+    <!-- <link rel="stylesheet" href="assets/style.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://dev4.bigmag.ua/catalog/view/master/css/components.css?v=79">
+    <link rel="stylesheet" href="https://dev4.bigmag.ua/catalog/view/master/css/manifest.css?v=70">
+    <link rel="stylesheet" href="https://dev4.bigmag.ua/catalog/view/theme/default/stylesheet/stylesheet.css?v=70?v=25">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+</head>
+<body>
+    <style>
+        a {
+            color: #363636; 
+            text-decoration: none; 
+            background: none; 
+            outline: none; 
+        }
+        html, body{
+            overflow-x: visible;
+        }
+        .wrapp{
+            padding-top: 151px;
+        }
+        @media(max-width:1240px){
+            .wrapp {
+                padding-top: 57px;
+            }
+        }
+    </style>
+    <header id="header" class="header block_fixed">
+        <div class="header__container header__wrapper wrapper">
+          <div class="header__data">
+            <div class="header__box header__box--logo">
+                                    <!-- base-logo--><a class="base-logo" href="https://bigmag.ua/ua/">
+                    <img style="width: 150px;" class="base-logo__img" src="https://bigmag.ua/image/catalog/image/Logo/new2023/original _logo.svg" alt="BIG MAG"></a>
+                    <!-- base-logo-->
+                            </div>
+            <div class="header__box header__box--help-links">
+                    <ul class="header-help-actions">
+                        <li class="header-help-actions__item"><a class="header-help-actions__link" href="/ua/usloviya-remont.html"> Контакти</a></li>
+                        <li class="header-help-actions__item"><a class="header-help-actions__link" href="/ua/dostavka.html"> Доставка та оплата </a></li>
+                        <li class="header-help-actions__item"><a class="header-help-actions__link" href="https://bigmag.ua/ua/sub-magaziny-1/"> Магазини</a></li>
+                        <li class="header-help-actions__item"><a class="header-help-actions__link" href="ua/svyaz-s-rukovoditelem.html">Зв'язок з керівником</a></li>
+                        <li class="header-help-actions__item"><a class="header-help-actions__link" href="https://bigmag.ua/ua/index.php?route=product/ex_store_reviews"> Відгуки про магазин</a></li>
+                        <!-- <li class="header-help-actions__item"><a class="header-help-actions__link" href="/ua/partners.html"> Гарантія та повернення </a></li> -->
+
+
+
+                    </ul>
+            </div>
+
+            <div class="header__box header__box--phone-number">
+                    <div class="header-phone-number">
+                        <span class="header_phone_ico_block"><img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_phone_ico.svg"></span>
+                        <a class="header-phone-number__current binct-phone-number-1" href="javascript:void(0);" data-binct-original="1"><span>0</span><span style="opacity: 0.6;">6</span><span style="opacity: 0.4;">3</span><span style="margin-left: 5px;">Показати номер</span></a>
+                                          </div>
+            </div>
+              <div class="header__box header__box--user-actions">
+                  <div class="header-user-actions">
+                      <div class="header-user-actions__item">
+                          <div class="pull-left">
+	<div id="form-language">
+		<div class="btn-group">
+		<!--	 <button class="btn btn-link dropdown-toggle" data-toggle="dropdown">
+			 			 			 			 			 			 <img src="catalog/language/uk-ua/uk-ua.png" alt="UA" title="UA">
+			 			 			 			 <span class="hidden-xs hidden-sm hidden-md">Українська</span>&nbsp;<i class="fa fa-caret-down"></i></button>-->
+			 <ul class="dropdown-menu-lang">
+				 			<li>
+                    
+		<button class="btn btn-link btn-block language-select" onclick="window.location = 'https://bigmag.ua/iphone-xr-64gb-black-mry42-5-5-b-u.html'">RU</button>
+        </li>				 			<li>
+           
+          <button class="btn btn-link btn-block language-select language-select-active" onclick="window.location = 'https://bigmag.ua/ua/iphone-xr-64gb-black-mry42-5-5-b-u.html'">UA</button>
+          				 			 </li></ul>
+		</div>
+	</div>
+</div>
+
+                      </div>
+                  </div>
+              </div>
+                        </div>
+        </div>
+      </header>
+    <main class="review-page">
+        
+        <div id="desktop_nav" class="nav desktop-nav block_fixed">
+            <div class="nav__container nav__wrapper wrapper">
+              <div class="nav__data">
+                <div class="nav__box nav__box--categories">
+        <div class="nav-categories-dropdown js-nav-categories-dropdown">
+            <button class="nav-categories-dropdown__button nav-categories-dropdown-button js-nav-categories-dropdown-button" type="button" data-desktop-disabled="data-desktop-disabled">
+                <span class="nav-categories-dropdown-button__data">
+                    <span class="nav-categories-dropdown-button__text">
+                        <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/element-3.svg">
+                         Каталог товарів
+                    </span>
+                </span>
+            </button>
+    
+            <div id="nav_dropdown" class="nav-categories-dropdown__list">
+                                        <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-apple-bu/">
+                <li>
+                    <span>iPhone б/у</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Group 63.png">
+                </li>
+                </a>
+                            <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-apple-bu/sub-macbook-bu/">
+                <li>
+                    <span>MacBook б/у</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Group 64.png">
+                </li>
+                </a>
+                            <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-apple-bu/sub-apple-watch-bu/">
+                <li>
+                    <span>Apple Watch б/у</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Group 64-1.png">
+                </li>
+                </a>
+                            <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-apple-bu/sub-ipad-bu/">
+                <li>
+                    <span>iPad б/у</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Group 65.png">
+                </li>
+                </a>
+                            <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-iphone/">
+                <li>
+                    <span>iPhone</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Mask group.png">
+                </li>
+                </a>
+                            <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-macbook/">
+                <li>
+                    <span>MacBook</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Mask group-1.png">
+                </li>
+                </a>
+                            <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-ipad/">
+                <li>
+                    <span>iPad</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Mask group-3.png">
+                </li>
+                </a>
+                            <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-apple-watch-new/">
+                <li>
+                    <span>Apple Watch</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Mask group-2.png">
+                </li>
+                </a>
+                            <a class="nav-categories-dropdown__list_link" href="https://bigmag.ua/ua/sub-tehnika-i-aksessuary/">
+                <li>
+                    <span>Техніка та аксесуари</span>
+                    <img src="https://dev4.bigmag.ua/image/catalog/image/Category/Mask group-4.png">
+                </li>
+                </a>
+                                    </div>
+    
+        </div>
+    </div>
+    
+                <div class="nav__box nav__box--actions">
+                    <div class="nav-actions">
+                        <div class="nav-actions__item">
+                            <a class="nav-actions__link" href="https://obmen.bigmag.ua/">
+                                 Обмін
+                                <span class="nav-actions__icon-wrapper">
+                                    <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_obmen_ico.svg">
+                                  </span>
+    
+                            </a>
+                        </div>
+                        <div class="nav-actions__item">
+                            <a class="nav-actions__link" href="https://service.bigmag.ua/">
+                                 Сервіс
+                                <span class="nav-actions__icon-wrapper">
+                                      <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_service_ico.svg">
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                  <div class="nav__box nav__box--search">
+        <div class="base-search js-base-search" id="search">
+            <input class="base-search__input js-base-search-input" type="text" name="search" value="" autocomplete="off"><ul class="dropdown-menu"></ul>
+    
+            <span class="base-search__data">
+    
+                            <button class="base-search__icon-wrapper base-search__icon--search" type="button">
+                              <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_search_ico.svg">
+                            </button>
+                            
+    
+             </span>
+        </div>
+    </div>
+                <div class="nav__box nav__box--actions">
+                      <div class="nav-actions">
+                        <div class="nav-actions__item">
+                            <a class="nav-actions__link nav-actions__link_center" href="https://bigmag.ua/ua/login/">
+                                <span class="nav-actions__icon-wrapper marg_top-2">
+                                    <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_user_ico.svg" height="20">
+                                  </span>
+                            </a>
+                        </div>
+                        <div class="nav-actions__item">
+                            <a class="nav-actions__link nav-actions__link_center" href="https://bigmag.ua/ua/login/">
+                                <span class="nav-actions__icon-wrapper marg_top-2">
+                                    <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_fav_link.svg" height="20">
+                                  </span>
+                            </a>
+                        </div>
+                        <div class="nav-actions__item">
+                            <a class="nav-actions__link nav-actions__link_center" href="https://bigmag.ua/ua/cart/">
+                                                            <span class="nav-actions__icon-wrapper">
+                                    <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_cart_icon.svg" height="20" style="margin: 2px 0 0 0;">
+                                  </span>
+                            </a>
+                        </div>
+                                        </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header-mobile" style="/* position: absolute; */">
+            <div class="header-mobile__wrapper wrapper">
+              <div class="header-mobile__box header-mobile__box--menu">
+                <button class="header-mobile__button" type="button" data-modal-button="nav-mobile">
+                  <div class="header-mobile__icon header-mobile__icon--menu">
+                      <!--<use href="#menu"></use>-->
+                      <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_mobile_catalog_ico.svg" style="width: 28px;">
+                  </div>
+                </button>
+              </div>
+                <div class="header-mobile__box" id="search_buttom">
+                    <a class="header-mobile__button" id="search_buttom_a" href="#">
+                        <div class="header-mobile__icon header-mobile__icon--menu">
+                            <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_search_ico.svg" style="width: 24px;">
+                        </div>
+                    </a>
+                    <div class="header-mobile__box header-mobile__box--search" id="search_input">
+                        <div class="base-search js-base-search">
+                            <input class="base-search__input js-base-search-input base-search__input_mobile" type="text" placeholder="Поиск" onkeydown="$('.desktop-nav input[name=\'search\']').val($(this).val()); setTimeout(function(){$('.desktop-nav input[name=\'search\']').trigger('keydown') }, 500)">
+                            <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_search_ico.svg" style="width: 24px;position: absolute;top: 17px;left: 13px;">
+                            <button class="base-search__icon--search base-search__input_mobile_button" type="button">Найти</button>
+                        </div>
+    
+    
+    
+                    </div>
+                </div>
+    
+    
+                <div id="head_mob_logo_block" class="header__box header__box--logo">
+                    <a class="base-logo" href="https://dev4.bigmag.ua/">
+                        <img src="https://dev4.bigmag.ua/image/catalog/image/Logo/big_mag_original.png" alt="BIG MAG" width="93" height="40">
+                    </a>
+    
+                </div>
+    
+              <div id="head_mob_tel_block" class="header-mobile__box">
+                  <a class="header-mobile__button" href="tel:+38093 773 36 92">
+                      <div class="header-mobile__icon header-mobile__icon--phone">
+                          <!--<use href="#phone-stroke"></use>-->
+                          <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_phone_ico.svg" style="width: 24px;">
+                      </div>
+                  </a>
+                  <a class="header-mobile__button" href="https://dev4.bigmag.ua/cart/">
+                                        <div class="top-svg-cart header-mobile__icon header-mobile__icon--cart">
+                          <!--<use href="#cart"></use>-->
+                          <img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/head_cart_icon.svg">
+                        </div>
+                    </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="reviews-wrapper">
+              
+                <div class="reviews_page wrapp">
+                    
+                    <div class="breadcrumbs reviews__container">
+                        <a href="">
+                            <div class="icon">
+                                <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.86454 9.87786C5.95136 9.7992 6 9.6934 6 9.58319C6 9.47299 5.95136 9.36718 5.86454 9.28853L1.11556 4.99993L5.86454 0.711324C5.95136 0.632671 6 0.526867 6 0.41666C6 0.306455 5.95136 0.200649 5.86454 0.121998C5.68385 -0.0406666 5.39219 -0.0406666 5.21225 0.121998L0.13637 4.70526C0.0490112 4.78366 4.46769e-07 4.88956 4.3712e-07 4.99993C4.27472e-07 5.11029 0.0490112 5.21619 0.13637 5.29459L5.21225 9.87786C5.25471 9.91652 5.30544 9.94724 5.36145 9.96822C5.41746 9.98919 5.47762 10 5.53839 10C5.59917 10 5.65933 9.98919 5.71534 9.96822C5.77135 9.94724 5.82208 9.91652 5.86454 9.87786Z" fill="#363636"/>
+                                </svg>
+                            </div>
+                            <div class="text">
+                                Головна
+                            </div>
+                        </a>
+                    </div>    
+                    <div class="reviews-title reviews__container">
+                        Відгуки про магазин
+                    </div>
+                    <div class="reviews-gallery">
+                        <div class="reviews-gallery__wrapper">
+
+                      
+                            <div class="reviews-gallery__videos">
+                                <div class="title">
+                                    Відео покупців
+                                </div>
+                                <div class="gallery">
+                                    <div class="swiper-container reviews-video-galery-slider">
+                                        <div class="swiper-button-prev">
+                                            <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M31.4119 22.0826C30.326 26.7117 26.7117 30.326 22.0826 31.4119C18.7396 32.196 15.2604 32.196 11.9174 31.4119C7.28834 30.326 3.67395 26.7116 2.58813 22.0826C1.80396 18.7396 1.80396 15.2604 2.58813 11.9174C3.67395 7.28834 7.28835 3.67395 11.9174 2.58813C15.2604 1.80396 18.7396 1.80396 22.0826 2.58813C26.7117 3.67395 30.326 7.28834 31.4119 11.9174C32.196 15.2604 32.196 18.7396 31.4119 22.0826Z" fill="#363636" fill-opacity="0.5" stroke="#363636" stroke-opacity="0.5" stroke-width="4"/>
+                                                <path d="M31.4119 22.0826C30.326 26.7117 26.7117 30.326 22.0826 31.4119C18.7396 32.196 15.2604 32.196 11.9174 31.4119C7.28834 30.326 3.67395 26.7116 2.58813 22.0826C1.80396 18.7396 1.80396 15.2604 2.58813 11.9174C3.67395 7.28834 7.28835 3.67395 11.9174 2.58813C15.2604 1.80396 18.7396 1.80396 22.0826 2.58813C26.7117 3.67395 30.326 7.28834 31.4119 11.9174C32.196 15.2604 32.196 18.7396 31.4119 22.0826Z" stroke="white" stroke-width="1.5"/>
+                                                <path d="M18.6667 21.1663L14.5 16.9997L18.6667 12.833" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                                
+                                                
+                                        </div>
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/video-review-1.jpg" alt="">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/video-review-2.jpg" alt="">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/video-review-3.jpg" alt="">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/video-review-4.jpg" alt="">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/video-review-5.jpg" alt="">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/video-review-1.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="swiper-button-next">
+                                            <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.58813 11.9174C3.67396 7.28834 7.28835 3.67395 11.9174 2.58813C15.2604 1.80396 18.7396 1.80396 22.0826 2.58813C26.7117 3.67395 30.326 7.28835 31.4119 11.9174C32.196 15.2604 32.196 18.7396 31.4119 22.0826C30.326 26.7117 26.7117 30.326 22.0826 31.4119C18.7396 32.196 15.2604 32.196 11.9174 31.4119C7.28835 30.326 3.67396 26.7117 2.58813 22.0826C1.80396 18.7396 1.80396 15.2604 2.58813 11.9174Z" fill="#363636" fill-opacity="0.5" stroke="#363636" stroke-opacity="0.5" stroke-width="4"/>
+                                                <path d="M2.58813 11.9174C3.67396 7.28834 7.28835 3.67395 11.9174 2.58813C15.2604 1.80396 18.7396 1.80396 22.0826 2.58813C26.7117 3.67395 30.326 7.28835 31.4119 11.9174C32.196 15.2604 32.196 18.7396 31.4119 22.0826C30.326 26.7117 26.7117 30.326 22.0826 31.4119C18.7396 32.196 15.2604 32.196 11.9174 31.4119C7.28835 30.326 3.67396 26.7117 2.58813 22.0826C1.80396 18.7396 1.80396 15.2604 2.58813 11.9174Z" stroke="white" stroke-width="1.5"/>
+                                                <path d="M15.3333 12.8337L19.5 17.0003L15.3333 21.167" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                                
+                                                
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="reviews-gallery__images">
+                                <div class="title">
+                                    Фото покупців
+                                </div>
+                                <div class="gallery">
+                                    <div class="swiper-container reviews-galery-slider">
+                                        <div class="swiper-button-prev">
+                                            <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M31.4119 22.0826C30.326 26.7117 26.7117 30.326 22.0826 31.4119C18.7396 32.196 15.2604 32.196 11.9174 31.4119C7.28834 30.326 3.67395 26.7116 2.58813 22.0826C1.80396 18.7396 1.80396 15.2604 2.58813 11.9174C3.67395 7.28834 7.28835 3.67395 11.9174 2.58813C15.2604 1.80396 18.7396 1.80396 22.0826 2.58813C26.7117 3.67395 30.326 7.28834 31.4119 11.9174C32.196 15.2604 32.196 18.7396 31.4119 22.0826Z" fill="#363636" fill-opacity="0.5" stroke="#363636" stroke-opacity="0.5" stroke-width="4"/>
+                                                <path d="M31.4119 22.0826C30.326 26.7117 26.7117 30.326 22.0826 31.4119C18.7396 32.196 15.2604 32.196 11.9174 31.4119C7.28834 30.326 3.67395 26.7116 2.58813 22.0826C1.80396 18.7396 1.80396 15.2604 2.58813 11.9174C3.67395 7.28834 7.28835 3.67395 11.9174 2.58813C15.2604 1.80396 18.7396 1.80396 22.0826 2.58813C26.7117 3.67395 30.326 7.28834 31.4119 11.9174C32.196 15.2604 32.196 18.7396 31.4119 22.0826Z" stroke="white" stroke-width="1.5"/>
+                                                <path d="M18.6667 21.1663L14.5 16.9997L18.6667 12.833" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                                
+                                                
+                                        </div>
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/img-review-1.jpg" alt="">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/img-review-2.jpg" alt="">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/img-review-3.jpg" alt="">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/img-review-4.jpg" alt="">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/img-review-5.jpg" alt="">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/images/img-review-1.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="swiper-button-next">
+                                            <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.58813 11.9174C3.67396 7.28834 7.28835 3.67395 11.9174 2.58813C15.2604 1.80396 18.7396 1.80396 22.0826 2.58813C26.7117 3.67395 30.326 7.28835 31.4119 11.9174C32.196 15.2604 32.196 18.7396 31.4119 22.0826C30.326 26.7117 26.7117 30.326 22.0826 31.4119C18.7396 32.196 15.2604 32.196 11.9174 31.4119C7.28835 30.326 3.67396 26.7117 2.58813 22.0826C1.80396 18.7396 1.80396 15.2604 2.58813 11.9174Z" fill="#363636" fill-opacity="0.5" stroke="#363636" stroke-opacity="0.5" stroke-width="4"/>
+                                                <path d="M2.58813 11.9174C3.67396 7.28834 7.28835 3.67395 11.9174 2.58813C15.2604 1.80396 18.7396 1.80396 22.0826 2.58813C26.7117 3.67395 30.326 7.28835 31.4119 11.9174C32.196 15.2604 32.196 18.7396 31.4119 22.0826C30.326 26.7117 26.7117 30.326 22.0826 31.4119C18.7396 32.196 15.2604 32.196 11.9174 31.4119C7.28835 30.326 3.67396 26.7117 2.58813 22.0826C1.80396 18.7396 1.80396 15.2604 2.58813 11.9174Z" stroke="white" stroke-width="1.5"/>
+                                                <path d="M15.3333 12.8337L19.5 17.0003L15.3333 21.167" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                                
+                                                
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-nav reviews__container">
+                        <div class="title">Відгуки:</div>
+                        <div class="review-nav__btns">
+                            <div class="catalog-sort">
+                                <button>
+                                    <span class="icon">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.41441 6C7.26555 6 7.11668 5.94638 6.99916 5.83144L4.5 3.38698L2.00084 5.83144C1.77364 6.05366 1.39759 6.05366 1.1704 5.83144C0.943201 5.60922 0.943201 5.2414 1.1704 5.01918L4.0848 2.16856C4.19448 2.06128 4.34331 2 4.5 2C4.65669 2 4.80556 2.06128 4.91524 2.16856L7.8296 5.01918C8.0568 5.2414 8.0568 5.60922 7.8296 5.83144C7.71209 5.94638 7.56326 6 7.41441 6Z" fill="#363636"></path>
+                                            <path d="M4.5 14C4.22667 14 4 13.7908 4 13.5385V2.46154C4 2.20923 4.22667 2 4.5 2C4.77333 2 5 2.20923 5 2.46154V13.5385C5 13.7908 4.77333 14 4.5 14Z" fill="#363636"></path>
+                                            <path d="M12.5 14C12.3433 14 12.1944 13.9387 12.0848 13.8314L9.1704 10.9794C8.9432 10.7571 8.9432 10.3891 9.1704 10.1667C9.39759 9.94442 9.77364 9.94442 10.0008 10.1667L12.5 12.6124L14.9991 10.1667C15.2263 9.94442 15.6024 9.94442 15.8296 10.1667C16.0568 10.3891 16.0568 10.7571 15.8296 10.9794L12.9152 13.8314C12.8055 13.9387 12.6489 14 12.5 14Z" fill="#363636"></path>
+                                            <path d="M12.5 14C12.2267 14 12 13.7908 12 13.5385V2.46154C12 2.20923 12.2267 2 12.5 2C12.7733 2 13 2.20923 13 2.46154V13.5385C13 13.7908 12.78 14 12.5 14Z" fill="#363636"></path>
+                                        </svg>
+                                    </span>
+                                    <span class="text">
+                                        За часом
+                                    </span>
+                                </button>
+                              
+                            </div>
+                            <div class="catalog-sort__list">
+                                <div class="sort-arrow">
+                                    <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="11.9854" width="15.5667" height="15.5667" transform="rotate(45 11.9854 0)" fill="#FAFAFC"></rect>
+                                    </svg>
+                                </div>
+                                <div class="sort-list-header">
+                                    <span class="sort-title">Параметри</span>
+                                    <span id="closeSort">
+                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="2.29807" height="16.0865" rx="1.14904" transform="matrix(0.707105 0.707109 -0.707105 0.707109 12.0586 0.0361328)" fill="#363636"></rect>
+                                            <rect width="2.29807" height="16.0865" rx="1.14904" transform="matrix(0.707105 -0.707109 0.707105 0.707109 0.683594 1.66113)" fill="#363636"></rect>
+                                        </svg>
+                                    </span>
+                                </div>
+                                <div class="sort-list">
+                                        <a class="sort-item active" href="">За часом</a>
+                                        <a class="sort-item" href="">За рейтингом</a>
+                                        <a class="sort-item" href="">За популярнистю</a>
+                                        <a class="sort-item" href="">За датою</a>
+                                </div>
+                            </div>
+                            <button class="addReview">
+                                Написати відгук
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="reviews-list">
+                    <div class="product_reviews reviews__container">
+                        <div class="reviews-list">
+                            <div class="review-item">
+                                <div class="rating">
+                                    <div class="rating-value">
+                                        <div class="rating-value">
+                                            <span class="icon star active"></span>
+                                            <span class="icon star active"> </span>
+                                            <span class="icon star active"></span>
+                                            <span class="icon star active"> </span>
+                                            <span class="icon star"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="review-description hide-after">
+                                    Купила мамі цей телефон. Не хотіла брати новий, бо з технікою вона тільки знайомиться, а цей в самий раз. Мама говорить, що великий, зате серіали дивитись добре. Дякую менеджеру за допомогу
+                                </div>
+                                <div class="review-nav">
+                                    <button style="display: none;">
+                                        <span class="text">Разгорнути</span>
+                                        <span class="icon">
+                                            <svg width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 0.5L5 4.5L9 0.5" stroke="#757575" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </div>
+                                <div class="review-images">
+                                    <div class="review-image">
+                                        <img src="assets/images/review-image.png" alt="">
+                                    </div>
+                                    <div class="review-image">
+                                        <img src="assets/images/review-image.png" alt="">
+                                    </div>
+                                    <div class="review-image">
+                                        <img src="assets/images/review-image.png" alt="">
+                                    </div>
+        
+                                </div>
+                                <div class="review-footer">
+                                    <div class="review-info">
+                                        <div class="user-name">Ольга</div>
+                                        <div class="review-date">22.01.2024</div>
+                                    </div>
+                                    <div class="review-likes">
+                                        <div class="like">
+                                            <div class="count">
+                                                0
+                                            </div>
+                                        </div>
+                                        <div class="dislike">
+                                                0
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review-item">
+                                <div class="rating">
+                                    <div class="rating-value">
+                                        <div class="rating-value">
+                                            <span class="icon star active"></span>
+                                            <span class="icon star active"> </span>
+                                            <span class="icon star"></span>
+                                            <span class="icon star"> </span>
+                                            <span class="icon star"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="review-description">
+                                    Купила мамі цей телефон. Не хотіла брати новий, бо з технікою вона тільки знайомиться, а цей в самий раз. Мама говорить, що великий, зате серіали дивитись добре. Дякую менеджеру за допомогу
+                                    Купила мамі цей телефон. Не хотіла брати новий, бо з технікою вона тільки знайомиться, а цей в самий раз. Мама говорить, що великий, зате серіали дивитись добре. Дякую менеджеру за допомогу
+                                    Купила мамі цей телефон. Не хотіла брати новий, бо з технікою вона тільки знайомиться, а цей в самий раз. Мама говорить, що великий, зате серіали дивитись добре. Дякую менеджеру за допомогу
+                                </div>
+                                <div class="review-nav">
+                                    <button style="display: flex;">
+                                        <span class="text">Разгорнути</span>
+                                        <span class="icon">
+                                            <svg width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 0.5L5 4.5L9 0.5" stroke="#757575" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </div>
+                                <div class="review-images">
+                                    <div class="review-image">
+                                        <img src="assets/images/review-image.png" alt="">
+                                    </div>
+                                    <div class="review-image">
+                                        <img src="assets/images/review-image.png" alt="">
+                                    </div>
+                                    <div class="review-image">
+                                        <img src="assets/images/review-image.png" alt="">
+                                    </div>
+                                    <div class="review-image">
+                                        <img src="assets/images/review-image.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="review-footer">
+                                    <div class="review-info">
+                                        <div class="user-name">Максим</div>
+                                        <div class="review-date">22.01.2024</div>
+                                    </div>
+                                    <div class="review-likes">
+                                        <div class="like active">
+                                                2
+                                        </div>
+                                        <div class="dislike">
+                                            1
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="review-item">
+                                <div class="rating">
+                                    <div class="rating-value">
+                                        <span class="icon star active"></span>
+                                        <span class="icon star active"> </span>
+                                        <span class="icon star active"></span>
+                                        <span class="icon star"> </span>
+                                        <span class="icon star"></span>
+                                    </div>
+                                </div>
+                                <div class="review-description">
+                                    Купила мамі цей телефон. Не хотіла брати новий, бо з технікою вона тільки знайомиться, а цей в самий раз. Мама говорить, що великий, зате серіали дивитись добре. Дякую менеджеру за допомогу
+                                    Купила мамі цей телефон. Не хотіла брати новий, бо з технікою вона тільки знайомиться, а цей в самий раз. Мама говорить, що великий, зате серіали дивитись добре. Дякую менеджеру за допомогу
+                                    Купила мамі цей телефон. Не хотіла брати новий, бо з технікою вона тільки знайомиться, а цей в самий раз. Мама говорить, що великий, зате серіали дивитись добре. Дякую менеджеру за допомогу
+                                </div>
+                                <div class="review-nav">
+                                    <button style="display: flex;">
+                                        <span class="text">Разгорнути</span>
+                                        <span class="icon">
+                                            <svg width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 0.5L5 4.5L9 0.5" stroke="#757575" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </div>
+                                <div class="review-images">
+                                    <div class="review-image">
+                                        <img src="assets/images/review-image.png" alt="">
+                                    </div>
+                                    <div class="review-image">
+                                        <img src="assets/images/review-image.png" alt="">
+                                    </div>
+        
+                                </div>
+                                <div class="review-footer">
+                                    <div class="review-info">
+                                        <div class="user-name">Валентин</div>
+                                        <div class="review-date">25.02.2024</div>
+                                    </div>
+                                    <div class="review-likes">
+                                        <div class="like">
+                                                0
+                                        </div>
+                                        <div class="dislike active">
+                                            2
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="all-reviews">
+                            <a href="#">
+                                <span class="text">Дивитись всі відгуки</span>
+                                <span class="count">125</span>
+                                <span class="icon">
+                                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 8.5L5 4.5L1 0.5" stroke="#363636" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="review-form">
+                  
+                    <form action="">
+                      
+                        <div class="review-form__wrapper">
+                            <div class="title">Написати відгук</div>
+                            <div class="rating">
+                                <div class="rating-value">
+                                    <span class="icon star"></span>
+                                    <span class="icon star"> </span>
+                                    <span class="icon star"></span>
+                                    <span class="icon star"> </span>
+                                    <span class="icon star"></span>
+                                </div>
+                            </div>
+                            <div class="input-row review-firstname error">
+                                <div class="input__wrapper ">
+                                    <span class="icon"></span>
+                                    <input type="text" name="name" placeholder="Ваше ім’я">
+                                </div>
+                                <div class="input-error">Некоректне ім’я!</div>
+                            </div>
+                            <div class="input-row review-telephone error">
+                                <div class="input__wrapper ">
+                                    <span class="icon"></span>
+                                    <input type="text" name="telephone" placeholder="+ 38 (___) ___-__-__">
+                                </div>
+                                <div class="input-error">Некоректний телефон!</div>
+                            </div>
+                            <div class="input-row review-comment">
+                                <div class="input__wrapper ">
+                                    <span class="icon"></span>
+                                    <input type="text" name="comment" placeholder="Коментар">
+                                </div>
+                                <div class="input-error"></div>
+                            </div>
+                            <p>
+                                Спробуйте додати фото та відео до свого відгука, щоб<br>
+                                він став ще більш цікавим
+                            </p>
+                            <div class="review-btns">
+                                <button class="reviewAddImage">
+                                    <span class="icon">
+                                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.5 10.75C7.98 10.75 6.75 9.52 6.75 8C6.75 6.48 7.98 5.25 9.5 5.25C11.02 5.25 12.25 6.48 12.25 8C12.25 9.52 11.02 10.75 9.5 10.75ZM9.5 6.75C8.81 6.75 8.25 7.31 8.25 8C8.25 8.69 8.81 9.25 9.5 9.25C10.19 9.25 10.75 8.69 10.75 8C10.75 7.31 10.19 6.75 9.5 6.75Z" fill="#292D32"/>
+                                            <path d="M15.5 22.75H9.5C4.07 22.75 1.75 20.43 1.75 15V9C1.75 3.57 4.07 1.25 9.5 1.25H13.5C13.91 1.25 14.25 1.59 14.25 2C14.25 2.41 13.91 2.75 13.5 2.75H9.5C4.89 2.75 3.25 4.39 3.25 9V15C3.25 19.61 4.89 21.25 9.5 21.25H15.5C20.11 21.25 21.75 19.61 21.75 15V10C21.75 9.59 22.09 9.25 22.5 9.25C22.91 9.25 23.25 9.59 23.25 10V15C23.25 20.43 20.93 22.75 15.5 22.75Z" fill="#292D32"/>
+                                            <path d="M21.75 5.75H16.25C15.84 5.75 15.5 5.41 15.5 5C15.5 4.59 15.84 4.25 16.25 4.25H21.75C22.16 4.25 22.5 4.59 22.5 5C22.5 5.41 22.16 5.75 21.75 5.75Z" fill="#292D32"/>
+                                            <path d="M19 8.5C18.59 8.5 18.25 8.16 18.25 7.75V2.25C18.25 1.84 18.59 1.5 19 1.5C19.41 1.5 19.75 1.84 19.75 2.25V7.75C19.75 8.16 19.41 8.5 19 8.5Z" fill="#292D32"/>
+                                            <path d="M3.16932 19.7001C2.92932 19.7001 2.68932 19.5801 2.54932 19.3701C2.31932 19.0301 2.40932 18.5601 2.74932 18.3301L7.67932 15.0201C8.75932 14.3001 10.2493 14.3801 11.2293 15.2101L11.5593 15.5001C12.0593 15.9301 12.9093 15.9301 13.3993 15.5001L17.5593 11.9301C18.6293 11.0201 20.2893 11.0201 21.3593 11.9301L22.9893 13.3301C23.2993 13.6001 23.3393 14.0701 23.0693 14.3901C22.7993 14.7001 22.3293 14.7401 22.0093 14.4701L20.3793 13.0701C19.8793 12.6401 19.0293 12.6401 18.5393 13.0701L14.3793 16.6401C13.3193 17.5501 11.6493 17.5501 10.5793 16.6401L10.2493 16.3501C9.78932 15.9601 9.02932 15.9201 8.51932 16.2701L3.59932 19.5801C3.45932 19.6601 3.30932 19.7001 3.16932 19.7001Z" fill="#292D32"/>
+                                            </svg>
+                                            
+                                    </span>
+                                </button>
+                                <button class="reviewAddVideo">
+                                    <span class="icon">
+                                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15.5 22.75H9.5C4.07 22.75 1.75 20.43 1.75 15V9C1.75 3.57 4.07 1.25 9.5 1.25H15.5C20.93 1.25 23.25 3.57 23.25 9V15C23.25 15.25 23.25 15.5 23.23 15.74C23.2 16.06 22.98 16.32 22.67 16.4C22.36 16.48 22.04 16.36 21.86 16.09C21.83 16.06 21.77 15.99 21.73 15.94C21.01 15.17 20.03 14.75 19 14.75C17.98 14.75 17.02 15.15 16.31 15.88C15.63 16.58 15.25 17.51 15.25 18.5C15.25 19.17 15.44 19.84 15.79 20.43C15.97 20.73 16.19 21.01 16.44 21.23C16.48 21.26 16.51 21.29 16.53 21.31L16.61 21.38C16.84 21.57 16.95 21.9 16.86 22.19C16.77 22.48 16.53 22.7 16.23 22.73C16.01 22.75 15.75 22.75 15.5 22.75ZM9.5 2.75C4.89 2.75 3.25 4.39 3.25 9V15C3.25 19.61 4.89 21.25 9.5 21.25H14.53C14.52 21.23 14.51 21.22 14.5 21.2C14.01 20.38 13.74 19.44 13.74 18.5C13.74 17.12 14.27 15.82 15.22 14.84C16.2 13.83 17.58 13.25 18.99 13.25C19.97 13.25 20.93 13.52 21.74 14.03V9C21.74 4.39 20.1 2.75 15.49 2.75H9.5Z" fill="#292D32"/>
+                                            <path d="M21.9834 7.85986H3.02344C2.61344 7.85986 2.27344 7.51986 2.27344 7.10986C2.27344 6.69986 2.61344 6.35986 3.02344 6.35986H21.9834C22.3934 6.35986 22.7334 6.69986 22.7334 7.10986C22.7334 7.51986 22.4034 7.85986 21.9834 7.85986Z" fill="#292D32"/>
+                                            <path d="M9.02344 7.71985C8.61344 7.71985 8.27344 7.37985 8.27344 6.96985V2.10986C8.27344 1.69986 8.61344 1.35986 9.02344 1.35986C9.43344 1.35986 9.77344 1.69986 9.77344 2.10986V6.96985C9.77344 7.37985 9.43344 7.71985 9.02344 7.71985Z" fill="#292D32"/>
+                                            <path d="M15.9766 7.2699C15.5666 7.2699 15.2266 6.9299 15.2266 6.5199V2.10986C15.2266 1.69986 15.5666 1.35986 15.9766 1.35986C16.3866 1.35986 16.7266 1.69986 16.7266 2.10986V6.5199C16.7266 6.9399 16.3966 7.2699 15.9766 7.2699Z" fill="#292D32"/>
+                                            <path d="M18.9978 23.75C17.8178 23.75 16.6678 23.35 15.7678 22.61C15.7378 22.59 15.7078 22.57 15.6878 22.55C15.6178 22.49 15.5678 22.45 15.5278 22.41C15.5078 22.4 15.4978 22.39 15.4878 22.37C15.1178 22.04 14.7778 21.64 14.5178 21.2C14.0278 20.38 13.7578 19.44 13.7578 18.5C13.7578 17.12 14.2878 15.82 15.2378 14.84C16.2178 13.83 17.5978 13.25 19.0078 13.25C20.4878 13.25 21.8978 13.87 22.8778 14.96C22.8878 14.97 22.9078 14.99 22.9178 15.01C22.9878 15.08 23.0578 15.17 23.1078 15.25C23.8278 16.12 24.2578 17.29 24.2578 18.5C24.2578 18.94 24.2078 19.35 24.1078 19.74C23.9878 20.24 23.7878 20.73 23.5078 21.2C22.5478 22.78 20.8278 23.75 18.9978 23.75ZM16.5878 21.35C16.6178 21.37 16.6378 21.38 16.6578 21.4C17.3178 21.95 18.1178 22.24 18.9978 22.24C20.3078 22.24 21.5278 21.54 22.2078 20.42C22.4078 20.09 22.5478 19.73 22.6378 19.36C22.7078 19.08 22.7478 18.8 22.7478 18.49C22.7478 17.63 22.4478 16.8 21.8978 16.14L21.8078 16.02C21.7778 15.99 21.7478 15.96 21.7278 15.92C21.0078 15.16 20.0278 14.74 18.9978 14.74C17.9778 14.74 17.0178 15.14 16.3078 15.87C15.6278 16.57 15.2478 17.5 15.2478 18.49C15.2478 19.16 15.4378 19.83 15.7878 20.42C15.9678 20.72 16.1878 21 16.4378 21.22C16.4778 21.25 16.5078 21.28 16.5278 21.3L16.5878 21.35Z" fill="#292D32"/>
+                                            <path d="M20.6803 19.23H17.3203C16.9103 19.23 16.5703 18.89 16.5703 18.48C16.5703 18.07 16.9103 17.73 17.3203 17.73H20.6803C21.0903 17.73 21.4303 18.07 21.4303 18.48C21.4303 18.89 21.1003 19.23 20.6803 19.23Z" fill="#292D32"/>
+                                            <path d="M19 20.9501C18.59 20.9501 18.25 20.6101 18.25 20.2001V16.8401C18.25 16.4301 18.59 16.0901 19 16.0901C19.41 16.0901 19.75 16.4301 19.75 16.8401V20.2001C19.75 20.6201 19.41 20.9501 19 20.9501Z" fill="#292D32"/>
+                                            </svg>
+                                            
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                      
+                        <button class="reviewSubmit">Залишити відгук</button>
+                    </form>
+
+                   
+                </div>
+
+        </div>
+        <div class="about-feature-block">
+            <div class="row wrapper wrapper_no_padding wrapper_850">
+                <div class="">
+                    <div class="about-feature-title">Про BigMag:</div>
+                    <div class="about-feature-wrap">
+                        <div class="af-block af-block_gray_bg">
+                            <div class="af-image"><img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/main_about1.svg" width="70" height="70" alt="<strong>10 лет</strong> на рынке Украины"></div>
+                            <div class="af-title"><strong>10 лет</strong> на рынке Украины</div>
+                        </div>
+                        <div class="af-block af-block_gray_bg">
+                            <div class="af-image"><img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/main_about2.svg" width="70" height="70" alt="Больше <strong>100.000 клиентов</strong>"></div>
+                            <div class="af-title">Больше <strong>100.000 клиентов</strong></div>
+                        </div>
+                        <!--
+                        <div class="af-block">
+                            <div class="af-image"><a class="" target="_blank" rel="nofollow noopener" href="<a href="https://bigmag.ua">https://bigmag.ua</a>ua/sub-magaziny-1/"><img src="image/about/about3.svg" width="70" height="70" alt=""></a></div>
+                            <div class="af-title"><a class="" target="_blank" rel="nofollow noopener" href="<a href="https://bigmag.ua">https://bigmag.ua</a>ua/sub-magaziny-1/">
+    <strong>4 магазина</strong></a> в Украине</div>
+                        </div>
+                        -->
+                        <div class="af-block af-block_gray_bg">
+                            <div class="af-image"><a class="" target="_blank" rel="nofollow noopener" href="https://maps.app.goo.gl/LpweevCmDZm5rBd5A"><img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/main_about4.svg" width="70" height="70" alt=""></a></div>
+                            <div class="af-title"><a class="" target="_blank" rel="nofollow noopener" href="https://maps.app.goo.gl/LpweevCmDZm5rBd5A">
+    <strong>1000+ отзывов</strong></a> на Google, средняя <strong>оценка 4,6*</strong></div>
+                        </div>
+                        <!--
+                        <div class="af-block">
+                            <div class="af-image"><img src="image/about/about5.svg" width="70" height="70" alt="Работаем <strong>7 дней</strong> в неделю и <strong>12 часов</strong> каждый день"></div>
+                            <div class="af-title">Работаем <strong>7 дней</strong> в неделю и <strong>12 часов</strong> каждый день</div>
+                        </div>
+                        -->
+                        <div class="af-block af-block_gray_bg">
+                            <div class="af-image"><img src="https://dev4.bigmag.ua/catalog/view/theme/default/image/rediz/main_about6.svg" width="70" height="70" alt=""></div>
+                            <div class="af-title">Аудитория в <a class="" target="_blank" rel="nofollow noopener" href="https://www.instagram.com/bigmag_ua/">
+    <strong>Instagram 117.000</strong></a> и <a class="" target="_blank" rel="nofollow noopener" href="https://www.tiktok.com/@bigmag_ua"><strong>TikTok 112.000</strong></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="overlay"></div>
+    </main>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const contactsItems = document.querySelectorAll('.contacts-item');
+
+        contactsItems.forEach(contactsItem => {
+
+            const contactHeader = contactsItem.querySelector('.contacts-item__header')
+
+            contactHeader.addEventListener('click', function() {
+
+                document.querySelectorAll('.contacts-item').forEach(contactItem => {
+                    contactItem.classList.remove('active');
+                })
+
+                contactsItem.classList.add('active');
+            })
+
+        })
+
+        const reviewsGallerySlider = new Swiper('.reviews-galery-slider', {
+            spaceBetween: 10,
+            slidesPerView: 2.2,
+            freeMode: false,
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true,
+            slideToClickedSlide: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                950: {
+                    spaceBetween: 25,
+                    slidesPerView: 5,
+                },
+                560: {
+                    spaceBetween: 25,
+                    slidesPerView: 4.5,
+                },
+
+            }
+        });
+
+        const reviewsGallerySliderVideo = new Swiper('.reviews-video-galery-slider', {
+            spaceBetween: 10,
+            slidesPerView: 2.2,
+            freeMode: false,
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true,
+            slideToClickedSlide: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                950: {
+                    spaceBetween: 25,
+                    slidesPerView: 5,
+                },
+                560: {
+                    spaceBetween: 25,
+                    slidesPerView: 4.5,
+                },
+
+            }
+        });
+
+
+        const sortBtn = document.querySelector(".catalog-sort");
+        const sort = document.querySelector(".catalog-sort__list");
+        const closeSort = document.getElementById("closeSort");
+        const overlay = document.querySelector(".overlay");
+
+        const addReviewTrigger = document.querySelector(".addReview");
+
+        const reviewForm = document.querySelector(".review-form");
+        
+        sortBtn .addEventListener("click", function() {
+            sort.classList.add("active");
+            overlay.classList.add("active");
+        });
+
+        closeSort.addEventListener("click", function() {
+            sort.classList.remove("active");
+            overlay.classList.remove("active");
+        });
+
+
+
+        overlay.addEventListener("click", function() {
+            sort.classList.remove("active");
+            overlay.classList.remove("active");
+        });
+
+        addReviewTrigger.addEventListener("click", function() {
+            const formPosition = reviewForm.getBoundingClientRect().top + window.scrollY;
+            window.scrollTo({
+            top: formPosition - 100,
+            behavior: 'smooth'
+        });
+        });
+
+
+
+    })
+
+
+    
+</script>
+</body>
+
+</html>
